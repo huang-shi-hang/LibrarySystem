@@ -1,0 +1,66 @@
+A:link {
+	COLOR: #190552; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #190552; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #29098a; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #29098a; TEXT-DECORATION: underline
+}
+A:unknown {
+	TEXT-DECORATION: none
+}
+A.top:unknown {
+	TEXT-DECORATION: none
+}
+A.top:link {
+	COLOR: #000000; TEXT-DECORATION: none; face: Arial
+}
+A.top:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.top:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+.title1 {
+	FONT-SIZE: 15pt; LINE-HEIGHT: 130%
+}
+.title3 {
+	FONT-SIZE: 12pt; LINE-HEIGHT: 120%
+}
+.title2 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 120%; TEXT-DECORATION: underline
+}
+TR {
+	COLOR: #000000; FONT-FAMILY: Arial; FONT-SIZE: 9pt
+}
+TD {
+	COLOR: #000000; FONT-FAMILY: Arial; FONT-SIZE: 9pt; LINE-HEIGHT: 180%
+}
+.tdmain {
+	COLOR: #000000; FONT-SIZE: 11pt; LINE-HEIGHT: 19pt
+}
+.td1 {
+	BORDER-BOTTOM: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid
+}
+.td2 {
+	BORDER-BOTTOM: #006699 1px solid; BORDER-LEFT: 0px solid; BORDER-RIGHT: #006699 1px solid; BORDER-TOP: 0px solid
+}
+.td3 {
+	BORDER-BOTTOM: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid
+}
+.td4 {
+	BORDER-BOTTOM: #ff9933 1px solid; BORDER-LEFT: #ff9933 1px solid; BORDER-RIGHT: #ff9933 1px solid; BORDER-TOP: #ff9933 1px solid
+}
+.td5 {
+	BORDER-BOTTOM: #aaaaaa 0px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-RIGHT: #aaaaaa 0px solid; BORDER-TOP: #aaaaaa 1px solid
+}
+.FormText {
+	BACKGROUND-COLOR: #f1f5fa; BORDER-BOTTOM: #0066cc 1px solid; BORDER-LEFT: #0066cc 1px solid; BORDER-RIGHT: #0066cc 1px solid; BORDER-TOP: #0066cc 1px solid; CURSOR: hand; FONT-SIZE: 12px; LINE-HEIGHT: 150%
+}
+.FormText1 {
+	BACKGROUND-COLOR: #f1f5fa; BORDER-BOTTOM: #0066cc 1px solid; BORDER-LEFT: #0066cc 1px solid; BORDER-RIGHT: #0066cc 1px solid; BORDER-TOP: #0066cc 1px solid; FONT-SIZE: 12px; LINE-HEIGHT: 120%
+}

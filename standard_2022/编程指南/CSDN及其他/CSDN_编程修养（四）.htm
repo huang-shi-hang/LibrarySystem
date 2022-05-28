@@ -1,0 +1,597 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0049)http://www.csdn.net/develop/article/18/18272.shtm -->
+<HTML><HEAD><TITLE>CSDN_编程修养（四）</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META content=0 http-equiv=Expires><LINK href="CSDN_编程修养（四）.files/csdn.css" 
+rel=stylesheet>
+<META content="MSHTML 5.00.3502.5390" name=GENERATOR></HEAD>
+<BODY aLink=#990000 bgColor=#ffffff bottomMargin=0 leftMargin=0 rightMargin=0 
+topMargin=0 marginheight="0" marginwidth="0">
+<SCRIPT language=javascript1.2>
+<!--
+	var currentpos,timer; 
+	function initialize() 
+	{ 
+	timer=setInterval('scrollwindow()',10);
+	} 
+	function sc(){
+	clearInterval(timer);	
+	}
+	function scrollwindow() 
+	{ 
+	currentpos=document.body.scrollTop; 
+	window.scroll(0,++currentpos); 
+	if (currentpos != document.body.scrollTop) 
+	sc();
+	} 
+	document.onmousedown=sc
+	document.ondblclick=initialize
+//-->
+</SCRIPT>
+
+<DIV align=center>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD colSpan=3 height=2></TD></TR>
+  <TR>
+    <TD bgColor=#006699 width=20></TD>
+    <FORM action="" method=post name=alogon onsubmit=javascript:submit2() 
+    target=_blank>
+    <TD bgColor=#006699 height=20 vAlign=center><IMG height=20 
+      src="CSDN_编程修养（四）.files/index_login3.gif" width=60> <INPUT name=name 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      font-color:#ffffff ;> <IMG height=20 
+      src="CSDN_编程修养（四）.files/index_login4.gif" width=60> <INPUT name=pass 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      type=password> <SELECT name=type size=1 
+      style="BACKGROUND-COLOR: #006699; COLOR: #ffffff"> <OPTION selected 
+        value=1>我的论坛</OPTION> <OPTION value=2>我的软件</OPTION> <OPTION 
+        value=3>我的订单</OPTION> <OPTION value=4>我的文档</OPTION> <OPTION 
+        value=5>我的简历</OPTION></SELECT> <INPUT height=20 
+      src="CSDN_编程修养（四）.files/index_login1.gif" type=image width=60><A 
+      href="http://www.csdn.net/member/zc.asp" target=_parent><IMG border=0 
+      height=20 src="CSDN_编程修养（四）.files/index_login2.gif" 
+width=60></A></TD></FORM>
+    <TD align=right bgColor=#006699 height=16 width=200><A class=top 
+      href="http://www.csdn.net/search.asp" target=_blank><IMG border=0 
+      height=16 src="CSDN_编程修养（四）.files/top1.gif" width=50></A> <A class=top 
+      href="http://www.csdn.net/member.shtm" target=_blank><IMG border=0 
+      height=16 src="CSDN_编程修养（四）.files/top2.gif" width=50></A><A class=top 
+      href="http://www.csdn.net/help/help.asp" target=_blank><IMG border=0 
+      height=16 src="CSDN_编程修养（四）.files/top3.gif" width=50></A> 
+</TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle height=70 width=170><A href="http://www.csdn.net/"><IMG 
+      border=0 src="CSDN_编程修养（四）.files/csdn.gif"></A><A 
+      href="http://www.csdn.net/all_topic/index.htm">&nbsp;</A></TD>
+    <TD align=middle><IFRAME border=0 frameBorder=No height=60 marginHeight=0 
+      marginWidth=0 scrolling=no src="CSDN_编程修养（四）.files/index.htm" 
+      width=468></IFRAME></TD>
+    <TD align=middle>
+      <SCRIPT>document.write("<img src=http://count.csdn.net/count/pageview1.asp?columnid=4&itemid=11 border=0 width=0 height=0>");</SCRIPT>
+
+      <SCRIPT src="CSDN_编程修养（四）.files/link.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#ff6633>
+    <TD height=1 vAlign=bottom></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 height=20 width=770>
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD height=40 vAlign=center width="100%">
+      <TABLE bgColor=#ff6600 border=0 cellPadding=0 cellSpacing=0 height=40 
+      width=550>
+        <TBODY>
+        <TR>
+          <TD height=20>
+            <SCRIPT src="CSDN_编程修养（四）.files/navigation.js"></SCRIPT>
+          </TD>
+          <TD bgColor=#ffffff><IMG height=20 
+            src="CSDN_编程修养（四）.files/head_gd_1.gif" width=40></TD></TR>
+        <TR>
+          <TD bgColor=#ffffff vAlign=bottom>
+            <MARQUEE onmouseout=this.start() onmouseover=this.stop() 
+            scrollAmount=2 scorlldelay="2">
+            <SCRIPT src="CSDN_编程修养（四）.files/marquee.htm"></SCRIPT>
+            </MARQUEE></TD>
+          <TD bgColor=#ffffff></TD></TR></TBODY></TABLE></TD>
+    <TD align=right height=30 vAlign=top width=200>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 height="100%" width=200>
+        <TBODY>
+        <TR>
+          <TD align=right vAlign=top><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><B>
+            <SCRIPT language=JavaScript>
+			<!--
+			function submit2()
+			{
+				
+				var types=document.alogon.type.options[document.alogon.type.selectedIndex].value;				
+				if (types!="1")
+					document.alogon.action="/member/logon.asp";
+				else
+					document.alogon.action="http://expert.csdn.net/member/logon.asp";
+				//document.alogon.submit();
+			}
+			tmpDate = new Date();
+			date = tmpDate.getDate();
+			month= tmpDate.getMonth() + 1 ; 
+			year= tmpDate.getYear();             
+			document.write(year);
+			document.write(".");
+			document.write(month);
+			document.write(".");
+			document.write(date);
+			// -->
+			</SCRIPT>
+            </B></FONT></TD></TR>
+        <TR>
+          <TD align=right><A href="http://www.csdn.net/english">English</A> <!--繁體--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE bgColor=#cccccc border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#cccccc>
+    <TD height=2></TD></TR>
+  <TR>
+    <TD bgColor=#ffffff height=15></TD></TR></TBODY></TABLE>
+<TABLE border=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#fafafa class=td1 vAlign=top width=150><BR><!--广告条开始//-->
+      <SCRIPT src="CSDN_编程修养（四）.files/other.js"></SCRIPT>
+<!--广告条结束//--></TD>
+    <TD align=middle vAlign=top width=620><!--文章说明信息开始//-->
+      <TABLE bgColor=#eeeeee border=0 cellPadding=0 cellSpacing=0 width=600>
+        <TBODY>
+        <TR bgColor=#ffffff>
+          <TD align=middle height=10 width=50></TD>
+          <TD align=right><A href="http://www.csdn.net/">CSDN</A> - <A 
+            href="http://www.csdn.net/develop/">文档中心</A> - <FONT 
+            color=#003399>其他</FONT>&nbsp;&nbsp;&nbsp;&nbsp;</TD></TR>
+        <TR>
+          <TD align=enter height=5></TD>
+          <TD align=middle width=500 td <></TD>
+        <TR>
+          <TD align=middle bgColor=#003399 height=10><FONT 
+            color=#ffffff>标题</FONT></TD>
+          <TD><B>&nbsp;&nbsp;&nbsp;&nbsp;编程修养（四）</B>&nbsp;&nbsp;&nbsp;&nbsp;haoel（原作）</TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR>
+        <TR>
+          <TD align=middle bgColor=#003399><FONT color=#ffffff>关键字</FONT></TD>
+          <TD width=500>&nbsp;&nbsp;&nbsp;&nbsp;C/C++ 程序员 编程 修养 易读性 高质量 可维护性 
+          稳定</TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR></TBODY></TABLE><!--文章说明信息结束//-->
+      <TABLE border=0 width=600>
+        <TBODY>
+        <TR>
+          <TD align=left><!--内容开始//--><BR>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>11、出错信息的处理</STRONG><BR>—————————<BR>你会处理出错信息吗？哦，它并不是简单的输出。看下面的示例：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; if ( p == NULL 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf ( "ERR: The 
+            pointer is NULL\n" );<BR>&nbsp;&nbsp;&nbsp; }<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>告别学生时代的编程吧。这种编程很不利于维护和管理，出错信息或是提示信息，应该统一处理，而不是像上面这样，写成一个“硬编码”。第10条对这方面的处理做了一部分说明。如果要管理错误信息，那就要有以下的处理：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; /* 声明出错代码 
+            */<BR>&nbsp;&nbsp;&nbsp; #define&nbsp;&nbsp;&nbsp;&nbsp; 
+            ERR_NO_ERROR&nbsp;&nbsp;&nbsp; 0&nbsp; /* No 
+            error&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/<BR>&nbsp;&nbsp;&nbsp; 
+            #define&nbsp;&nbsp;&nbsp;&nbsp; ERR_OPEN_FILE&nbsp;&nbsp; 1&nbsp; /* 
+            Open file 
+            error&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/<BR>&nbsp;&nbsp;&nbsp; 
+            #define&nbsp;&nbsp;&nbsp;&nbsp; ERR_SEND_MESG&nbsp;&nbsp; 
+            2&nbsp;&nbsp;/*&nbsp;sending a message error&nbsp; 
+            */<BR>&nbsp;&nbsp;&nbsp; #define&nbsp;&nbsp;&nbsp;&nbsp; 
+            ERR_BAD_ARGS&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;/* Bad 
+            arguments&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/<BR>&nbsp;&nbsp;&nbsp; 
+            #define&nbsp;&nbsp;&nbsp;&nbsp; ERR_MEM_NONE&nbsp;&nbsp;&nbsp; 
+            4&nbsp;&nbsp;/* Memeroy is not enough&nbsp;&nbsp;&nbsp; 
+            */<BR>&nbsp;&nbsp;&nbsp; #define&nbsp;&nbsp;&nbsp;&nbsp; 
+            ERR_SERV_DOWN&nbsp;&nbsp; 5&nbsp;&nbsp;/* Service down try 
+            later&nbsp;&nbsp; */<BR>&nbsp;&nbsp;&nbsp; 
+            #define&nbsp;&nbsp;&nbsp;&nbsp; ERR_UNKNOW_INFO 6&nbsp;&nbsp;/* 
+            Unknow information&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            */<BR>&nbsp;&nbsp;&nbsp; #define&nbsp;&nbsp;&nbsp;&nbsp; 
+            ERR_SOCKET_ERR &nbsp;7&nbsp;&nbsp;/*&nbsp;Socket 
+            operation&nbsp;failed&nbsp; */<BR>&nbsp;&nbsp;&nbsp; 
+            #define&nbsp;&nbsp;&nbsp;&nbsp; ERR_PERMISSION &nbsp;8&nbsp; /* 
+            Permission denied&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            */<BR></FONT><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            #define&nbsp;&nbsp;&nbsp;&nbsp; ERR_BAD_FORMAT&nbsp; 9&nbsp; /* Bad 
+            configuration file&nbsp; &nbsp;*/<BR>&nbsp;&nbsp;&nbsp; 
+            #define&nbsp;&nbsp;&nbsp;&nbsp; ERR_TIME_OUT&nbsp;&nbsp; 10&nbsp; /* 
+            Communication time&nbsp;out&nbsp;&nbsp; */<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp; /* 声明出错信息 */<BR>&nbsp;&nbsp;&nbsp; char* 
+            errmsg[] = {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 0 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "No 
+            error",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 1 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Open file 
+            error",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 2 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Failed in sending/receiving 
+            a message",&nbsp; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 
+            3 */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Bad arguments",&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 4 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Memeroy is not 
+            enough",<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 5 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Service is down; try 
+            later",<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 6 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Unknow information", 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 7 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "A socket operation has 
+            failed", <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 8 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Permission denied", 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 9 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Bad configuration file 
+            format",&nbsp; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* 10 
+            */&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Communication time out", 
+            <BR>&nbsp;&nbsp;&nbsp; 
+            };<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp; /* 声明错误代码全局变量 */<BR>&nbsp;&nbsp;&nbsp; long 
+            errno = 0;<BR>&nbsp;&nbsp;&nbsp; <BR>&nbsp;&nbsp;&nbsp; /* 打印出错信息函数 
+            */<BR>&nbsp;&nbsp;&nbsp; void perror( char* 
+            info)<BR>&nbsp;&nbsp;&nbsp; 
+            {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( info 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            printf("%s: %s\n", info, errmsg[errno] 
+            );<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            return;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("Error: %s\n", 
+            errmsg[errno] );<BR>&nbsp;&nbsp;&nbsp; }</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>这个基本上是ANSI的错误处理实现细节了，于是当你程序中有错误时你就可以这样处理：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; bool 
+            CheckPermission( char* userName )<BR>&nbsp;&nbsp;&nbsp; 
+            {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( 
+            strcpy(userName, "root") != 0 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            errno = 
+            ERR_PERMISSION_DENIED;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            return (FALSE);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ...<BR>&nbsp;&nbsp;&nbsp; }<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp; main()<BR>&nbsp;&nbsp;&nbsp; 
+            {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ...<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (! 
+            CheckPermission( username ) 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            perror("main()");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ...<BR>&nbsp;&nbsp;&nbsp; 
+            }<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>一个即有共性，也有个性的错误信息处理，这样做有利同种错误出一样的信息，统一用户界面，而不会因为文件打开失败，A程序员出一个信息，B程序员又出一个信息。而且这样做，非常容易维护。代码也易读。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>当然，物极必反，也没有必要把所有的输出都放到errmsg中，抽取比较重要的出错信息或是提示信息是其关键，但即使这样，这也包括了大多数的信息。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><BR><FONT face="Courier New" 
+            size=2><STRONG>12、常用函数和循环语句中的被计算量</STRONG><BR>—————————————————<BR>看一下下面这个例子：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; for( i=0; 
+            i&lt;1000; i++ ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            GetLocalHostName( hostname 
+            );<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ...<BR>&nbsp;&nbsp;&nbsp; }<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>GetLocalHostName的意思是取得当前计算机名，在循环体中，它会被调用1000次啊。这是多么的没有效率的事啊。应该把这个函数拿到循环体外，这样只调用一次，效率得到了很大的提高。虽然，我们的编译器会进行优化，会把循环体内的不变的东西拿到循环外面，但是，你相信所有编译器会知道哪些是不变的吗？我觉得编译器不可靠。最好还是自己动手吧。</FONT></P>
+            <P><FONT face="Courier New" size=2>同样，对于常用函数中的不变量，如：</FONT></P>
+            <P><FONT face="Courier New" size=2>GetLocalHostName(char* 
+            name)<BR>{<BR>&nbsp;&nbsp;&nbsp; char funcName[] = 
+            "GetLocalHostName";<BR>&nbsp;&nbsp;&nbsp; <BR>&nbsp;&nbsp;&nbsp; 
+            sys_log( "%s begin......", funcName );<BR>&nbsp;&nbsp;&nbsp; 
+            ...<BR>&nbsp;&nbsp;&nbsp; sys_log( "%s end......", funcName 
+            );<BR>}</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>如果这是一个经常调用的函数，每次调用时都要对funcName进行分配内存，这个开销很大啊。把这个变量声明成static吧，当函数再次被调用时，就会省去了分配内存的开销，执行效率也很好。<BR>&nbsp;&nbsp;&nbsp; 
+            </FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>13、函数名和变量名的命名</STRONG><BR>————————————<BR>我看到许多程序对变量名和函数名的取名很草率，特别是变量名，什么a,b,c,aa,bb,cc，还有什么flag1,flag2, 
+            cnt1, 
+            cnt2，这同样是一种没有“修养”的行为。即便加上好的注释。好的变量名或是函数名，我认为应该有以下的规则：<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp; 1) 直观并且可以拼读，可望文知意，不必“解码”。 
+            <BR>&nbsp;&nbsp;&nbsp; 2) 
+            名字的长度应该即要最短的长度，也要能最大限度的表达其含义。<BR>&nbsp;&nbsp;&nbsp; 3) 
+            不要全部大写，也不要全部小写，应该大小写都有，如：GetLocalHostName 或是 
+            UserAccount。<BR>&nbsp;&nbsp;&nbsp; 4) 可以简写，但简写得要让人明白，如：ErrorCode 
+            -&gt; ErrCode,&nbsp; ServerListener -&gt; ServLisner，UserAccount 
+            -&gt; UsrAcct 等。<BR>&nbsp;&nbsp;&nbsp; 5) 
+            为了避免全局函数和变量名字冲突，可以加上一些前缀，一般以模块简称做为前缀。<BR>&nbsp;&nbsp;&nbsp; 6) 
+            全局变量统一加一个前缀或是后缀，让人一看到这个变量就知道是全局的。<BR>&nbsp;&nbsp;&nbsp; 7) 
+            用匈牙利命名法命名函数参数，局部变量。但还是要坚持“望文生意”的原则。<BR>&nbsp;&nbsp;&nbsp; 8) 
+            与标准库（如：STL）或开发库（如：MFC）的命名风格保持一致。<BR>&nbsp;&nbsp;&nbsp; </FONT></P>
+            <P><BR><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            <BR><STRONG>14、函数的传值和传指针</STRONG><BR>————————————<BR>向函数传参数时，一般而言，传入非const的指针时，就表示，在函数中要修改这个指针把指内存中的数据。如果是传值，那么无论在函数内部怎么修改这个值，也影响不到传过来的值，因为传值是只内存拷贝。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>什么？你说这个特性你明白了，好吧，让我们看看下面的这个例程：</FONT></P>
+            <P><FONT face="Courier New" size=2>void<BR>GetVersion(char* 
+            pStr)<BR>{<BR>&nbsp;&nbsp;&nbsp; pStr = 
+            malloc(10);<BR>&nbsp;&nbsp;&nbsp; strcpy ( pStr, "2.0" 
+            );<BR>}</FONT></P>
+            <P><FONT face="Courier New" size=2>main()<BR>{<BR>&nbsp;&nbsp;&nbsp; 
+            char* ver = NULL;<BR>&nbsp;&nbsp;&nbsp; GetVersion ( ver 
+            );<BR>&nbsp;&nbsp;&nbsp; ...<BR>&nbsp;&nbsp;&nbsp; 
+            ...<BR>&nbsp;&nbsp;&nbsp; free ( ver );<BR>}</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>我保证，类似这样的问题是一个新手最容易犯的错误。程序中妄图通过函数GetVersion给指针ver分配空间，但这种方法根本没有什么作用，原因就是——这是传值，不是传指针。你或许会和我争论，我分明传的时指针啊？再仔细看看，其实，你传的是指针其实是在传值。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>15、修改别人程序的修养</STRONG><BR>———————————</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>当你维护别人的程序时，请不要非常主观臆断的把已有的程序删除或是修改。我经常看到有的程序员直接在别人的程序上修改表达式或是语句。修改别人的程序时，请不要删除别人的程序，如果你觉得别人的程序有所不妥，请注释掉，然后添加自己的处理程序，必竟，你不可能100%的知道别人的意图，所以为了可以恢复，请不依赖于CVS或是SourceSafe这种版本控制软件，还是要在源码上给别人看到你修改程序的意图和步骤。这是程序维护时，一个有修养的程序员所应该做的。</FONT></P>
+            <P><FONT face="Courier New" size=2>如下所示，这就是一种比较好的修改方法：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            /*<BR>&nbsp;&nbsp;&nbsp;&nbsp; * ----- commented by haoel 2003/04/12 
+            ------<BR>&nbsp;&nbsp;&nbsp;&nbsp; *<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+            *&nbsp;&nbsp; char* p = ( char* ) malloc( 10 
+            );<BR>&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp; memset( p, 0, 10 
+            );<BR>&nbsp;&nbsp;&nbsp;&nbsp; */<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp; /* ------ Added by haoel&nbsp;&nbsp; 
+            2003/04/12 ----- */<BR>&nbsp;&nbsp;&nbsp;&nbsp; char* p = ( char* 
+            )calloc( 10, sizeof char );<BR>&nbsp;&nbsp;&nbsp; /* 
+            ---------------------------------------- */<BR>&nbsp;&nbsp;&nbsp; 
+            ...</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>当然，这种方法是在软件维护时使用的，这样的方法，可以让再维护的人很容易知道以前的代码更改的动作和意图，而且这也是对原作者的一种尊敬。</FONT></P>
+            <P><FONT face="Courier New" size=2>以“注释 — 
+            添加”方式修改别人的程序，要好于直接删除别人的程序。</FONT></P>
+            <P align=right><FONT color=#0000ff face="Courier New" 
+            size=2><STRONG><A 
+            href="http://www.csdn.net/Develop/read_article.asp?id=18271">&lt;-上一页</A>&nbsp; 
+            <A 
+            href="http://www.csdn.net/Develop/read_article.asp?id=18273">下一页-&gt;<BR></P></A></STRONG></FONT>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>（版权所有，转载时请注明出处和作者信息）</STRONG></FONT></P><BR><!--内容结束//--></TD></TR></TBODY></TABLE><BR>
+      <TABLE border=0 width=600>
+        <TBODY>
+        <TR>
+          <TD>作者相关文章： 
+            <LI><A href="http://www.csdn.net/develop/article/18/18275.shtm" 
+            target=_blank>编程修养（七）<FONT color=#ff0000>(原作)</FONT></A> 
+            <LI><A href="http://www.csdn.net/develop/article/18/18274.shtm" 
+            target=_blank>编程修养（六）<FONT color=#ff0000>(原作)</FONT></A> 
+            <LI><A href="http://www.csdn.net/develop/article/18/18273.shtm" 
+            target=_blank>编程修养（五）<FONT color=#ff0000>(原作)</FONT></A> 
+        </LI></TD></TR></TBODY></TABLE><BR>
+  <TR></TD></TR></TBODY></TABLE><BR><!--文章评论开始//-->
+<TABLE align=center bgColor=#006699 border=0 cellPadding=0 cellSpacing=0 
+width=770>
+  <TBODY>
+  <TR bgColor=#006699>
+    <TD align=middle bgColor=#006699 id=white><FONT 
+    color=#ffffff>对该文的评论</FONT></TD>
+    <TD align=middle><!--文章人气开始//-->
+      <SCRIPT src="CSDN_编程修养（四）.files/readnum.htm"></SCRIPT>
+<!--文章人气开始//--></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nanyu<I>(2003-5-12 11:39:54)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>“nanyu：是的，如果你做UNIX下的程序，你会发现void GetVersion(char* 
+      &amp;pStr)语法在C中根不不被支持！”<BR><BR>haoel :<BR>&nbsp; 
+      你没有告诉我你的这些经验只能用在C上啊。如果是C，那可是连bool这个类型也没有啊。可我一直看到你在用。<BR>所以，我对你的回答的回答是：<BR><BR>&nbsp; 
+      “是的，如果你做C下的程序，你会发现void GetVersion(char* 
+      &amp;pStr)语法在C中根不不被支持！”。这样回答岂不更好。何劳去UNIX下。装一个UNIX多累。<BR><BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; chen3feng<I>(2003-5-10 18:33:02)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>C根本没有引用的语法，呵呵, 
+  C++才有的<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel<I>(2003-5-10 16:02:48)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>nanyu：是的，如果你做UNIX下的程序，你会发现void 
+      GetVersion(char* &amp;pStr)语法在C中根不不被支持！<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nanyu<I>(2003-5-10 10:41:53)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>第14条，如果你用的是Borland 
+      C++，那么我建议使用指针的引用：<BR><BR>&nbsp; void GetVersion(char* &amp;pStr)<BR>&nbsp; 
+      {<BR>&nbsp; &nbsp; &nbsp; pStr = malloc(10);<BR>&nbsp; &nbsp; &nbsp; 
+      strcpy(pStr,"2.0");<BR>&nbsp; &nbsp; &nbsp; ...<BR>&nbsp; }<BR><BR>&nbsp; 
+      好处在于在函数中你不用再用*来解析，在这里或许还不是很休现，如果传入的是某个类的指针，<BR>那么你一定受不了：<BR>&nbsp; 
+      （*pClass)-&amp;gt;<BR>&nbsp; 这种写法。<BR>&nbsp; <BR>&nbsp; 为什么只在Borland 
+      C++方面的产品里使用？因为当初我在VC里用时，它居然连指针的引用也不支持，真是最不地道的C++编译器。<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; chen3feng<I>(2003-5-9 21:42:49)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>呵呵一个指针而已，能有多大？它的空间是再堆栈上"开辟"的,不是分配。而你用malloc和free更会造成性能下降和内存碎片。正确的做法是:<BR>只读字符串，用const 
+      char*,对于用来作接受的缓冲区，如果知道预先知道大小，并且不很大的话，应该用局部自附数组，char 
+  [],其他情况只好动态分配了。<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel<I>(2003-5-9 14:02:36)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>同意fengye，用char pStr[]比用char 
+      *pStr，更有说服力，<BR>这是我的一个失误，谢谢指正。<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; fengye<I>(2003-5-9 12:46:40)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>GetLocalHostName(char* 
+      name)<BR>{<BR>&nbsp; &nbsp; char* funcName = 
+      "GetLocalHostName";<BR>}<BR>每次调用时都要对funcName进行分配内存。<BR><BR>这个例子不恰当。改成char 
+      funcName[] = 
+      "GetLocalHostName";好一些。不过消耗并不在于内存分配，而是变量初始化。<BR>也许不同编译器会有所区别。<BR><BR><BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel<I>(2003-5-9 11:43:55)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>---------------------------------<BR>chen3feng：<BR>至少，那个指针是要被重新分配的。<BR><BR>---------------------------------<BR>softboy：14条的正确做法应该是：<BR><BR>void<BR>GetVersion(char** 
+      pStr)<BR>{<BR>&nbsp; &nbsp; *pStr = malloc(10);<BR>&nbsp; &nbsp; strcpy ( 
+      *pStr, "2.0" );<BR>}<BR><BR>main()<BR>{<BR>&nbsp; &nbsp; char* ver = 
+      NULL;<BR>&nbsp; &nbsp; GetVersion ( &amp;ver );<BR>&nbsp; &nbsp; 
+      ...<BR>&nbsp; &nbsp; ...<BR>&nbsp; &nbsp; free ( ver 
+  );<BR>}<BR><BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; chen3feng<I>(2003-5-8 20:00:49)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>GetLocalHostName(char* 
+      name)<BR>{<BR>&nbsp; &nbsp; char* funcName = "GetLocalHostName";<BR>&nbsp; 
+      &nbsp; <BR>&nbsp; &nbsp; sys_log( "%s begin......", funcName );<BR>&nbsp; 
+      &nbsp; ...<BR>&nbsp; &nbsp; sys_log( "%s end......", funcName 
+      );<BR>}<BR><BR><BR>这是指针,指针指向一个全局字符串,不会大量分配内存的.指针和数组的区别一定得分清楚<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（四）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; softboy<I>(2003-5-8 18:35:11)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+  width=532><BR>对于第14条，<BR>我想请问什么才叫传指针？<BR></TD></TR></TBODY></TABLE>
+<SCRIPT language=javascript>
+<!--
+function isEmpty(s)
+{  
+	return ((s == null) || (s.length == 0))
+}
+function submit1()
+{
+ if (document.add_critique.csdnpassword.value != '_xxx_no') 
+  {
+   if (isEmpty(document.add_critique.csdnname.value) || isEmpty(document.add_critique.csdnpassword.value) || isEmpty(document.add_critique.critique_content.value))
+   {
+      alert('登陆名，密码，评论不能为空！！！！')   ;
+      return false;
+   }
+  }
+   else
+   {
+   if ( isEmpty(document.add_critique.critique_content.value))
+   {
+      alert('评论不能为空！！！！')   ;
+      return false;
+   }
+   }
+	add_critique.ubmit.disabled =true;
+	   document.add_critique.submit();
+ }
+//-->
+</SCRIPT>
+<BR><BR>
+<TABLE align=center bgColor=#cccccc border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TH bgColor=#006699 id=white><FONT 
+color=#ffffff>发表评论</FONT></TH></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#ffffff border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD>
+      <FORM action=/develop/critique_Sql.asp method=post 
+      name=add_critique><INPUT name=critique_add type=hidden value=add>
+      <SCRIPT>
+		function getcookieval(offset)   {
+		var endstr = document.cookie.indexOf(';',offset);
+		if (endstr == -1)
+			endstr = document.cookie.length;
+		return unescape (document.cookie.substring(offset,endstr));
+		}
+		function getcookie(name)   {
+		var arg = name + '=';
+		var alen = arg.length;
+		var clen = document.cookie.length;
+		var j = 0;
+		while (j< clen)       {
+			var k = j + alen;
+			if(document.cookie.substring(j,k) == arg) return getcookieval(k);
+			j = document.cookie.indexOf('',j)+1;
+			if (j ==0 ) break;
+			}
+		return null;
+		}
+		var ss = getcookie('userid');
+		if ((ss==null) | (ss=='2')) 
+		{
+			document.write('<font color=red><B>你还没有登录：</B></font>昵称:<input type=text name=csdnname size=10 class=from1>　密码:<input type=password name=csdnpassword size=10 class=from1>　<a href=http://www.csdn.net/expert/zc.asp><B>免费注册</B></a>');
+		}
+		else
+		{
+			document.write('<input type=hidden name=csdnname size=10 value=><input type=hidden name=csdnpassword size=10 value=_xxx_no>')
+		}
+		</SCRIPT>
+       &nbsp;&nbsp;评论：<BR>&nbsp;&nbsp;<TEXTAREA cols=100 name=critique_content rows=8></TEXTAREA><BR>&nbsp;&nbsp; 
+<INPUT name=ubmit onclick=javascript:submit1(); type=button value=发表评论> 
+      <INPUT name=Topic_id type=hidden value=18272> <INPUT name=From type=hidden 
+      value=/Develop/Build_Article.asp?id=18272> </FORM></TD></TR></TBODY></TABLE>
+<CENTER></CENTER><BR>
+<HR noShade SIZE=1 width=770>
+
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=500>
+  <TBODY>
+  <TR align=middle>
+    <TD height=10 vAlign=bottom><A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">网站简介</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=5">广告服务</A> - <A 
+      href="http://www.csdn.net/map/map.shtm">网站地图</A> - <A 
+      href="http://www.csdn.net/help/help.asp">帮助信息</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">联系方式</A> </TD>
+    <TD align=middle rowSpan=3><A 
+      href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001032100010"><IMG 
+      border=0 height=48 src="CSDN_编程修养（四）.files/biaoshi.gif" 
+width=40></A></TD></TR>
+  <TR align=middle>
+    <TD vAlign=top>百联美达美公司 版权所有 京ICP证020026号</TD></TR>
+  <TR align=middle>
+    <TD vAlign=top><FONT face=Verdana>Copyright &copy; CSDN.net, Inc. All rights 
+      reserved</FONT></TD></TR>
+  <TR>
+    <TD height=15></TD>
+    <TD></TD></TR></TBODY></TABLE></DIV><!--218.19.11.160//--></BODY></HTML>

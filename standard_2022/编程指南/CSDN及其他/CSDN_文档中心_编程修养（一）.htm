@@ -1,0 +1,757 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0053)http://www.csdn.net/Develop/read_article.asp?id=18269 -->
+<HTML><HEAD><TITLE>CSDN_文档中心_编程修养（一）</TITLE>
+<META content="MSHTML 5.00.3502.5390" name=GENERATOR>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type><LINK 
+href="CSDN_文档中心_编程修养（一）.files/csdn.css" rel=stylesheet></HEAD>
+<BODY bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<DIV align=center>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD colSpan=3 height=2></TD></TR>
+  <TR>
+    <TD bgColor=#006699 width=20></TD>
+    <FORM action="" method=post name=alogon onsubmit=javascript:submit2() 
+    target=_blank>
+    <TD bgColor=#006699 height=20 vAlign=center><IMG height=20 
+      src="CSDN_文档中心_编程修养（一）.files/index_login3.gif" width=60> <INPUT name=name 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      font-color:#ffffff ;> <IMG height=20 
+      src="CSDN_文档中心_编程修养（一）.files/index_login4.gif" width=60> <INPUT name=pass 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      type=password> <SELECT name=type size=1 
+      style="BACKGROUND-COLOR: #006699; COLOR: #ffffff"> <OPTION selected 
+        value=1>我的论坛</OPTION> <OPTION value=2>我的软件</OPTION> <OPTION 
+        value=3>我的订单</OPTION> <OPTION value=4>我的文档</OPTION> <OPTION 
+        value=5>我的简历</OPTION></SELECT> <INPUT height=20 
+      src="CSDN_文档中心_编程修养（一）.files/index_login1.gif" type=image width=60><A 
+      href="http://www.csdn.net/member/zc.asp" target=_parent><IMG border=0 
+      height=20 src="CSDN_文档中心_编程修养（一）.files/index_login2.gif" 
+    width=60></A></TD></FORM>
+    <TD align=right bgColor=#006699 height=16 width=200><A class=top 
+      href="http://www.csdn.net/search.asp" target=_blank><IMG border=0 
+      height=16 src="CSDN_文档中心_编程修养（一）.files/top1.gif" width=50></A> <A 
+      class=top href="http://www.csdn.net/member.shtm" target=_blank><IMG 
+      border=0 height=16 src="CSDN_文档中心_编程修养（一）.files/top2.gif" width=50></A><A 
+      class=top href="http://www.csdn.net/help/help.asp" target=_blank><IMG 
+      border=0 height=16 src="CSDN_文档中心_编程修养（一）.files/top3.gif" width=50></A> 
+  </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle height=70 width=170><A href="http://www.csdn.net/"><IMG 
+      border=0 src="CSDN_文档中心_编程修养（一）.files/csdn.gif"></A><A 
+      href="http://www.csdn.net/all_topic/index.htm">&nbsp;</A></TD>
+    <TD align=middle><IFRAME border=0 frameBorder=No height=60 marginHeight=0 
+      marginWidth=0 scrolling=no src="CSDN_文档中心_编程修养（一）.files/index.htm" 
+      width=468></IFRAME></TD>
+    <TD align=middle>
+      <SCRIPT>document.write("<img src=http://count.csdn.net/count/pageview1.asp?columnid=4&itemid=11 border=0 width=0 height=0>");</SCRIPT>
+
+      <SCRIPT src="CSDN_文档中心_编程修养（一）.files/link.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#ff6633>
+    <TD height=1 vAlign=bottom></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 height=20 width=770>
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD height=40 vAlign=center width="100%">
+      <TABLE bgColor=#ff6600 border=0 cellPadding=0 cellSpacing=0 height=40 
+      width=550>
+        <TBODY>
+        <TR>
+          <TD height=20>
+            <SCRIPT src="CSDN_文档中心_编程修养（一）.files/navigation.js"></SCRIPT>
+          </TD>
+          <TD bgColor=#ffffff><IMG height=20 
+            src="CSDN_文档中心_编程修养（一）.files/head_gd_1.gif" width=40></TD></TR>
+        <TR>
+          <TD bgColor=#ffffff vAlign=bottom>
+            <MARQUEE onmouseout=this.start() onmouseover=this.stop() 
+            scrollAmount=2 scorlldelay="2">
+            <SCRIPT src="CSDN_文档中心_编程修养（一）.files/marquee.htm"></SCRIPT>
+            </MARQUEE></TD>
+          <TD bgColor=#ffffff></TD></TR></TBODY></TABLE></TD>
+    <TD align=right height=30 vAlign=top width=200>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 height="100%" width=200>
+        <TBODY>
+        <TR>
+          <TD align=right vAlign=top><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><B>
+            <SCRIPT language=JavaScript>
+			<!--
+			function submit2()
+			{
+				
+				var types=document.alogon.type.options[document.alogon.type.selectedIndex].value;				
+				if (types!="1")
+					document.alogon.action="/member/logon.asp";
+				else
+					document.alogon.action="http://expert.csdn.net/member/logon.asp";
+				//document.alogon.submit();
+			}
+			tmpDate = new Date();
+			date = tmpDate.getDate();
+			month= tmpDate.getMonth() + 1 ; 
+			year= tmpDate.getYear();             
+			document.write(year);
+			document.write(".");
+			document.write(month);
+			document.write(".");
+			document.write(date);
+			// -->
+			</SCRIPT>
+            </B></FONT></TD></TR>
+        <TR>
+          <TD align=right><A href="http://www.csdn.net/english">English</A> <!--繁體--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE bgColor=#cccccc border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#cccccc>
+    <TD height=2></TD></TR>
+  <TR>
+    <TD bgColor=#ffffff height=15></TD></TR></TBODY></TABLE>
+<TABLE border=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#fafafa class=td1 vAlign=top width=150><BR><!--广告条开始//-->
+      <SCRIPT src="CSDN_文档中心_编程修养（一）.files/other.js"></SCRIPT>
+<!--广告条结束//--></TD>
+    <TD align=middle width=620><!--文章说明信息开始//-->
+      <TABLE bgColor=#eeeeee border=0 cellPadding=0 cellSpacing=0 width=600>
+        <TBODY>
+        <TR bgColor=#ffffff>
+          <TD align=middle height=10 width=50></TD>
+          <TD align=right><A href="http://www.csdn.net/">CSDN</A> - <A 
+            href="http://www.csdn.net/develop/">文档中心</A> - <FONT 
+            color=#003399>其他</FONT>&nbsp;&nbsp;&nbsp;&nbsp; </TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR>
+        <TR>
+          <TD align=middle bgColor=#003399 height=10><FONT 
+            color=#ffffff>标题</FONT></TD>
+          <TD><B>&nbsp;&nbsp;&nbsp;&nbsp;编程修养（一）</B>&nbsp;&nbsp;&nbsp;&nbsp;haoel（原作） 
+          </TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR>
+        <TR>
+          <TD align=middle bgColor=#003399><FONT color=#ffffff>关键字</FONT></TD>
+          <TD width=500>&nbsp;&nbsp;&nbsp;&nbsp;C/C++ 程序员 编程 修养 易读性 高质量 可维护性 
+          稳定</TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR></TBODY></TABLE><!--文章说明信息结束//-->
+      <TABLE border=0 width=600>
+        <TBODY>
+        <TR>
+          <TD align=left><!--内容开始//--><BR>
+            <P align=center><STRONG>编程修养<BR>————</STRONG></P>
+            <P><FONT face="Courier New" 
+            size=2>什么是好的程序员？是不是懂得很多技术细节？还是懂底层编程？还是编程速度比较快？我觉得都不是。对于一些技术细节来说和底层的技术，只要看帮助，查资料就能找到，对于速度快，只要编得多也就熟能生巧了。</FONT></P>
+            <P><FONT face="Courier New" size=2>我认为好的程序员应该有以下几方面的素质：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp; 
+            1、有专研精神，勤学善问、举一反三。<BR>&nbsp; 2、积极向上的态度，有创造性思维。<BR>&nbsp; 
+            3、与人积极交流沟通的能力，有团队精神。<BR>&nbsp; 4、谦虚谨慎，戒骄戒燥。<BR>&nbsp; 
+            5、写出的代码质量高。包括：代码的稳定、易读、规范、易维护、专业。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>这些都是程序员的修养，这里我想谈谈“编程修养”，也就是上述中的第5点。我觉得，如果我要了解一个作者，我会看他所写的小说，如果我要了解一个画家，我会看他所画的图画，如果我要了解一个工人，我会看他所做出来的产品，同样，如果我要了解一个程序员，我想首先我最想看的就是他的程序代码，程序代码可以看出一个程序员的素质和修养，程序就像一个作品，有素质有修养的程序员的作品必然是一图精美的图画，一首美妙的歌曲，一本赏心悦目的小说。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>我看过许多程序，没有注释，没有缩进，胡乱命名的变量名，等等，等等，我把这种人统称为没有修养的程序，这种程序员，是在做创造性的工作吗？不，完全就是在搞破坏，他们与其说是在编程，还不如说是在对源程序进行“加密”，这种程序员，见一个就应该开除一个，因为他编的程序所创造的价值，远远小于需要在上面进行维护的价值。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>程序员应该有程序员的修养，那怕再累，再没时间，也要对自己的程序负责。我宁可要那种动作慢，技术一般，但有良好的写程序风格的程序员，也不要那种技术强、动作快的“搞破坏”的程序员。有句话叫“字如其人”，我想从程序上也能看出一个程序员的优劣。因为，程序是程序员的作品，作品的好坏直截关系到程序员的声誉和素质。而“修养”好的程序员一定能做出好的程序和软件。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>有个成语叫“独具匠心”，意思是做什么都要做得很专业，很用心，如果你要做一个“匠”，也就是造诣高深的人，那么，从一件很简单的作品上就能看出你有没有“匠”的特性，我觉得做一个程序员不难，但要做一个“程序匠”就不简单了。编程序很简单，但编出有质量的程序就难了。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>我在这里不讨论过深的技术，我只想在一些容易让人忽略的东西上说一说，虽然这些东西可能很细微，但如果你不注意这些细微之处的话，那么他将会极大的影响你的整个软件质量，以及整个软件程的实施，所谓“千里之堤，毁于蚁穴”。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>“细微之处见真功”，真正能体现一个程序的功底恰恰在这些细微之处。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>这就是程序员的——编程修养。我总结了在用C/C++语言（主要是C语言）进行程序写作上的三十二个“修养”，通过这些，你可以写出质量高的程序，同时也会让看你程序的人渍渍称道，那些看过你程序的人一定会说：“这个人的编程修养不错”。</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            ————————————————————————<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            01、版权和版本<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            02、缩进、空格、换行、空行、对齐<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            03、程序注释<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            04、函数的[in][out]参数<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            05、对系统调用的返回进行判断<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 06、if 
+            语句对出错的处理<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            07、头文件中的#ifndef<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            08、在堆上分配内存<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            09、变量的初始化<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            10、h和c文件的使用<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            11、出错信息的处理<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            12、常用函数和循环语句中的被计算量<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            13、函数名和变量名的命名<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            14、函数的传值和传指针<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            15、修改别人程序的修养<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            16、把相同或近乎相同的代码形成函数和宏<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            17、表达式中的括号<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            18、函数参数中的const<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            19、函数的参数个数<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            20、函数的返回类型，不要省略<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            21、goto语句的使用<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            22、宏的使用<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            23、static的使用<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            24、函数中的代码尺寸<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            25、typedef的使用<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            26、为常量声明宏<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            27、不要为宏定义加分号<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            28、||和&amp;&amp;的语句执行顺序<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            29、尽量用for而不是while做循环<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            30、请sizeof类型而不是变量<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            31、不要忽略Warning<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            32、书写Debug版和Release版的程序</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            ————————————————————————</FONT></P>
+            <P align=right><A 
+            href="http://www.csdn.net/Develop/read_article.asp?id=18270"><FONT 
+            color=#0000ff face="Courier New" 
+            size=2><STRONG>下一页</STRONG></FONT></A><FONT color=#0000ff 
+            face="Courier New" size=2><STRONG>-&gt;</STRONG></FONT></P>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>（版权所有，转载时请注明出处和作者信息）</STRONG></FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P><BR><!--内容结束//--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR><!--文章评论开始//-->
+<TABLE align=center bgColor=#006699 border=0 cellPadding=0 cellSpacing=0 
+width=770>
+  <TBODY>
+  <TR bgColor=#006699>
+    <TD align=middle bgColor=#006699 id=white><FONT 
+    color=#ffffff>对该文的评论</FONT></TD>
+    <TD align=middle><!--文章人气开始//-->
+      <SCRIPT src="CSDN_文档中心_编程修养（一）.files/readnum.htm"></SCRIPT>
+<!--文章人气开始//--></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; trainman <I>(2003-5-14 13:04:02)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>我很同意本文作者的观点。中国有句俗语：还没学会爬，就不要学走路。有些人这么说：不就是看多了XXX书吗？我想反问：你来写写试试看。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-13 18:23:31)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>为什么取名叫“修养”，主要还是来源于我的一个朋友，那个朋友时常对我说一个词“计算机修养”。也就是说，他经常看见一些人粗暴地操作计算机，比如，不正常关机直接关电源；在电脑上安的软件删除时直接删目录而不是运行Uninstall；不关电源就把硬盘拔下来；等等，等等，那个朋友把这种人统程为没有“计算机修养”的人。文章的标题是他给了我灵感，我看过许多程序员编的程序，风格各一，个性化十足，极其随意，经常还看到有程序员为了卖弄自己的技术，在源代码中写一些很复杂的语句，加密源码。连一些小的地方都做不好，又怎么能做出一个大的软件呢？看看MFC的源码，看看PFC的源码，结构严谨，设计规范不说了，单就说风格，就是整齐划一，完全就是一个人写出来的，这种团队才是一支正规部队。回头看看国内呢，大部分的人还很不会写代码，为此我写下这篇文章。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; SuperRat <I>(2003-5-13 15:10:49)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>先鼓励一把 然后有两点: 1. 作者的标题可能有欠缺, 
+      被别人抓了把柄. 下次要当心, 别忘了国情. 2. 中国的程序员大多数缺少的的确就是规范. 赫赫, 可能有些人又不满了. 
+      西方人还什么都没有就先搞个规范/标准出来. 然后大家就都按照这个来. 也许这个规范不是最好的, 但是只要经过多数人的认可, 它只少也好过中等. 
+      比如老美选总统. 我们的程序员却总是最大程度的表现个人风格. 我手上正在修改的代码就有数个超过千行的类成员函数, VC++代码, 看死你. 
+      个人以为, "会写代码"和"写professional style的代码"是完全不同的. 就如同写文章. 
+      能清楚表达自己的编程概念首先是对别人的尊敬. 因为代码总是要维护的, 除非你写得总是一次性的. 代码好对自己也是鼓励. 
+      代码写的好,别人和你自己都会很好的收藏. 代码太差, 自己都不愿面对, 谁愿意看呢? <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; dongguabianbian <I>(2003-5-13 
+      12:24:46)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>收藏先 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; pizzaliu <I>(2003-5-13 9:42:22)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>作者似乎很赞成慢工出细活的工作方式，在竞争如此激烈的今天，你要知道，成败的关键不在乎你做没做，做多好，而在乎你做的对市场的反应有多快，蛋糕总是被先到的人先抢到。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; myan <I>(2003-5-13 9:17:57)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>不久以前我曾经在跟朋友讨论的时候提出过“程序员职业素养”这个词。看起来有不少地方跟你的想法是一致的。不过我认为这写不是“修养”。因为这些东西很大程度上跟技术相关。技术程度越好，对理论的理解越深入，经验越丰富，越重视这些东西，所以我认为这些属于“职业素养”。 
+      跟一些评论者一样，以前我觉得这些规定啊，风格啊，是企业内部的规范，似乎不必上升到“素养”这样的层次。但是后来我逐渐发现，真正要执行好这些规范，如果没有具有职业素养的程序员的主动配合，无论企业管理层用多么强力的手段，也不可能获得理想的效果。当然，程序缩行这些表面上的功夫好办，但是代码注释是否清晰易读，是否增加了合理的断言，物理分布是否合理，是否包含了不必要的头文件，这些东西，只有程序员技术和职业素养到了，才能够做得好。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; molti <I>(2003-5-13 2:57:50)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>我觉得没有必有刻意地去做，倒像是写出来的代码，只是为了让别人称赞似的，讨好老板吗？ 
+      看了许多的书，对大师们在书中书写的优美的代码，我们会很自然的模仿并用到自己的程序中，是很自然的， 
+      觉得跟修养不相干，难道说不这样，我们的修养有问题..... <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; demenz <I>(2003-5-13 1:00:32)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>optman说得好，这些是规范，不是修养。 
+      这是一个没有大师的年代，没有大师的国度 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; cocoboy79 <I>(2003-5-13 0:36:57)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>还是有一定道理的。 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; optman <I>(2003-5-12 20:47:43)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>看过很多文章，也看过很多标题很牛的文章，虽然不知道作者的水平，但总要表现出一副很高深的样子。今天，又算是领教了。看看文章标题，想起了那本“演员的自我修养”，看过“喜剧之王”的人都会记得。 
+      作者无非就是多看了几本“Effective C++”和“More Effective 
+      C++”等等，再加上一些平日里的心得和积累，然后就开始贩卖了（有点厚颜无耻）。再加上一些读者，见识很浅，又有一点容易激动的本性，于是崇拜。可惜可惜，这是一个没有大师的年代，没有大师的国度。 
+      写程序算哪般玩意？是艺术？还是工程？是文学创作还是演戏？如果是艺术，哪有多条条框框？如果是工程，谈什么修养，那是规范。其实，文章应该改名为“C/C++ 
+      八股”，要不就是“C/C++ 工程规范”，选哪一个呢？ “字如其人”？应该是“文如其人”吧？所谓的文，应该讲的是思想，还有行文的风格．．．．．． 
+      算啦，最近心情不好，然又看到道貌岸然的面目，不爽！故此得罪，请勿怪。 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; yeew <I>(2003-5-12 14:26:04)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>有良好编程风格才能写好程序，但不必拘泥固定模式。 
+    <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; realdreamer <I>(2003-5-12 12:29:28)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>太肤浅! <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; meiwen <I>(2003-5-12 0:10:51)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>支持！ 
+      干一行就要爱一行，就像自己的孩子一样，干干净净，健健康康。 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Meuck <I>(2003-5-11 17:29:40)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>是不有写出有质量的代码就一定要耗费很多时间？精力？这种情况会不会随着时间的推移，经验的积累会有所改善? 
+      因为这中间会不会有某种模式，掌握了之后，就可以编写出既有质量，又可又耗费很少的时间？ <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; mypride <I>(2003-5-10 23:01:05)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>什么是好的程序员？是不是懂得很多技术细节？还是懂底层编程？还是编程速度比较快？我觉得都不是。对于一些技术细节来说和底层的技术，只要看帮助，查资料就能找到，对于速度快，只要编得多也就熟能生巧了。 
+      我认为好的程序员应该有以下几方面的素质： 1、有专研精神，勤学善问、举一反三。 2、积极向上的态度，有创造性思维。 
+      3、与人积极交流沟通的能力，有团队精神。 4、谦虚谨慎，戒骄戒燥。 5、写出的代码质量高。包括：代码的稳定、易读、规范、易维护、专业。 
+      说的太好了，我一直都是来评价一个程序员的水平的，虽然我没有毕业，但是我觉得在大学里面老师教了我这方面的知识，做好了这些以后才能够从一个 
+      coder变成analyzer <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; yckxzjj <I>(2003-5-10 22:58:44)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>一个合格的程序应具备的基本要素？程序修养一定是其中必不可少的一部分！ <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; yckxzjj <I>(2003-5-10 22:52:38)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>原创作者说的很有道理。一个真正意义上的程序员应该具备良好的修养才是！！！ 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; EvenLee <I>(2003-5-10 22:00:43)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>大家可以看看mfc的源代码， 
+  <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Oer <I>(2003-5-10 20:15:09)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>我想这个人是不是机器人，如果每个程序员都是这样的话，那么现在的window 
+      2000还没有被开发出来了，时间都浪费在写那些没有必要的代码中了，那现在这个CSDN可能还在开发中！！！ 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; redfoxhuang <I>(2003-5-10 15:59:41)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>没素养不一定是初学者，初学者不一定没素养，一个程序员的编程素养是由他成长的环境决定的，如果影响他的人是一个没有素养的人，他的代码也注定是垃圾 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; xiaolong83 <I>(2003-5-10 14:01:37)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>受益匪浅。 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; jts20021982 <I>(2003-5-10 13:35:15)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>good,受益非浅！ 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; gumbour <I>(2003-5-10 11:43:29)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>说的很好但能否给一些C++方面的，我现在再用C++ 
+    <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; wasor <I>(2003-5-10 11:04:28)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>作者的诗写的不错 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nice90 <I>(2003-5-10 10:04:22)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>不要说新手，我看到我们公司里的技术部经理的程序写的非常之"烂"。我所说的"烂"是指没有任何注释，代码易读性非常之差。他们告诉我，不要在细节上死扣，写完交给用户使用就可以了。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; BoyMgl <I>(2003-5-9 20:17:32)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>非常严重的同意作者，这一切的一切都是中国教育的失败。 
+    <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-9 17:05:11)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>hexenzhou，那样理解可能有些偏激，也怪我没有表达清楚，但是，不要说初学者了，可能许多老手也会不注重这些细节。 
+      总体来说，这是中国教育的失败，包括许多大学里的课题，老师和学生关心的只是做出来，而不关心怎么才做得好，做得稳定。大过于注重一门语言的细节和特性，而不注重解决问题时的手段和方法。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; wacking <I>(2003-5-9 15:54:23)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>领悟中…… <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; wacking <I>(2003-5-9 15:52:41)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>学习中……,实践中…… 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; wacking <I>(2003-5-9 15:51:22)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>学习中,时间中! 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; hexenzhou <I>(2003-5-9 15:38:09)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>好文章，不过是否可以这样理解，初学者都是没有修养的，他们刚开始花大量的时间在编程语言本身，很少可以做得向你说的那样，不懂得注释、typedef的重要性，因为他们是初学者所以没有修养。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; spark_li <I>(2003-5-9 15:37:05)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>支持，程序员需要尽量这样做看见别人写的程序没有缩进，代码一多，就头大 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Hodex <I>(2003-5-9 12:07:56)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>说得很有理嘛！！学习！！ 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; pig345 <I>(2003-5-9 12:02:51)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>严重同意此文章的观点。 
+      除了C相关细节部分，其余的条款也适用于用其它语言工作的人。 软件行业发展到如今，它要求每个合格程序员的产品（代码）都可以和其他人进行交流。 
+      从这一点上说，这篇文章提出了一个衡量真正职业程序员的标准，应该推广。 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-9 11:53:03)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>lanzhengpeng2，对于你的： 
+      —————————————— char t; ...sizeof(char) 后来发现char不够用了，改为 int t；也会造成代码不一致 
+      —————————————— 我想，你可以参考一下我的“25、typedef的使用” 还是仅量sizeof类型，这一条在90%以上的情况下有效。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; lanzhengpeng2 <I>(2003-5-9 11:46:17)</I> 
+    </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>30、请sizeof类型而不是变量这点我不敢苟同。这样做会经常造成代码的不一致。如： char * t[100]; 
+      。。。 memset(t,0,sizeof(char) * 100); 后来因为其他原因： char * t[50] 这种情况是很常见的同样的道理： 
+      char t; ...sizeof(char) 后来发现char不够用了，改为 int t；也会造成代码不一致 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-9 11:38:42)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>我同意，我说的这些新的东西不多，对于老手，可能只有几条有看头。对于刚毕业的学生，对于新手，对于大多数程序员，特别中国的程序员，很难做到！我相信在这里留言的各位一定是没有问题了，但许多人却不知道了。还有一些修养或是素质是无法用条例来说明的，只有大量的实战经验才有很好。 
+      最后再说明几点： ———————— 1）这不是机器人，有关编程机器人描述请看我的《从奴隶主到领袖》。 
+      2）开发工具？我想问一下各位，在Unix下用什么开发工具？我用vi，没有什么wizard可以用。 
+      3）如果你在Unix下用C做软件开发，当程序越来越大时，比如3000个C文件，1000个头文件，你会发现我说的这些小地方是很有用的。 
+      4）我写下这篇文章，主要目的是抨击那种——“懂技术就会编程的程序员”、“一个月培养一个程序员”的观点！ 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; ch0877 <I>(2003-5-9 10:20:04)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>这是素质吧 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; benben1982 <I>(2003-5-9 9:44:44)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>TO visualc: ~∩_∩~ 
+  <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Caoyu015 <I>(2003-5-9 2:14:27)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>我想就算是机器也同样反映做出它的人的个人专业修养吧。：） 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; chanet <I>(2003-5-8 23:27:00)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>听课中... (修养? 为什么不叫道德) 
+  <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; zjsen <I>(2003-5-8 20:33:27)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>同意visualc，作者列的那些开发工具都做的很好,程序员要想不这样做都费劲 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Norse <I>(2003-5-8 18:41:18)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>no new 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（一）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; visualc <I>(2003-5-8 17:41:39)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>我觉得你说的是机器人，不是程序员！你说的这一点appwizard做的很好。 
+<BR></TD></TR></TBODY></TABLE><!--文章评论结束//--><BR>
+<DIV align=center>
+<TABLE align=center bgColor=#cccccc border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TH bgColor=#006699 id=white><FONT 
+color=#ffffff>我要评论</FONT></TH></TR></TBODY></TABLE></DIV>� 
+<DIV align=center>
+<TABLE border=0 width=770>
+  <TBODY>
+  <TR>
+    <TD>你没有登陆，无法发表评论。 请先<A 
+      href="http://www.csdn.net/member/login.asp?from=/Develop/read_article.asp?id=18269">登陆</A> 
+      <A 
+href="http://www.csdn.net/expert/zc.asp">我要注册</A><BR></TD></TR></TBODY></TABLE></DIV><BR>
+<HR noShade SIZE=1 width=770>
+
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=500>
+  <TBODY>
+  <TR align=middle>
+    <TD height=10 vAlign=bottom><A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">网站简介</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=5">广告服务</A> - <A 
+      href="http://www.csdn.net/map/map.shtm">网站地图</A> - <A 
+      href="http://www.csdn.net/help/help.asp">帮助信息</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">联系方式</A> </TD>
+    <TD align=middle rowSpan=3><A 
+      href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001032100010"><IMG 
+      border=0 height=48 src="CSDN_文档中心_编程修养（一）.files/biaoshi.gif" 
+    width=40></A></TD></TR>
+  <TR align=middle>
+    <TD vAlign=top>百联美达美公司 版权所有 京ICP证020026号</TD></TR>
+  <TR align=middle>
+    <TD vAlign=top><FONT face=Verdana>Copyright &copy; CSDN.net, Inc. All rights 
+      reserved</FONT></TD></TR>
+  <TR>
+    <TD height=15></TD>
+    <TD></TD></TR></TBODY></TABLE></DIV>
+<DIV></DIV><!--结束//--></BODY></HTML>

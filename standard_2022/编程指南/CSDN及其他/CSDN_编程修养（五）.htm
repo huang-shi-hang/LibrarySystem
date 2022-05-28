@@ -1,0 +1,575 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0049)http://www.csdn.net/develop/article/18/18273.shtm -->
+<HTML><HEAD><TITLE>CSDN_编程修养（五）</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META content=0 http-equiv=Expires><LINK href="CSDN_编程修养（五）.files/csdn.css" 
+rel=stylesheet>
+<META content="MSHTML 5.00.3502.5390" name=GENERATOR></HEAD>
+<BODY aLink=#990000 bgColor=#ffffff bottomMargin=0 leftMargin=0 rightMargin=0 
+topMargin=0 marginheight="0" marginwidth="0">
+<SCRIPT language=javascript1.2>
+<!--
+	var currentpos,timer; 
+	function initialize() 
+	{ 
+	timer=setInterval('scrollwindow()',10);
+	} 
+	function sc(){
+	clearInterval(timer);	
+	}
+	function scrollwindow() 
+	{ 
+	currentpos=document.body.scrollTop; 
+	window.scroll(0,++currentpos); 
+	if (currentpos != document.body.scrollTop) 
+	sc();
+	} 
+	document.onmousedown=sc
+	document.ondblclick=initialize
+//-->
+</SCRIPT>
+
+<DIV align=center>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD colSpan=3 height=2></TD></TR>
+  <TR>
+    <TD bgColor=#006699 width=20></TD>
+    <FORM action="" method=post name=alogon onsubmit=javascript:submit2() 
+    target=_blank>
+    <TD bgColor=#006699 height=20 vAlign=center><IMG height=20 
+      src="CSDN_编程修养（五）.files/index_login3.gif" width=60> <INPUT name=name 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      font-color:#ffffff ;> <IMG height=20 
+      src="CSDN_编程修养（五）.files/index_login4.gif" width=60> <INPUT name=pass 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      type=password> <SELECT name=type size=1 
+      style="BACKGROUND-COLOR: #006699; COLOR: #ffffff"> <OPTION selected 
+        value=1>我的论坛</OPTION> <OPTION value=2>我的软件</OPTION> <OPTION 
+        value=3>我的订单</OPTION> <OPTION value=4>我的文档</OPTION> <OPTION 
+        value=5>我的简历</OPTION></SELECT> <INPUT height=20 
+      src="CSDN_编程修养（五）.files/index_login1.gif" type=image width=60><A 
+      href="http://www.csdn.net/member/zc.asp" target=_parent><IMG border=0 
+      height=20 src="CSDN_编程修养（五）.files/index_login2.gif" 
+width=60></A></TD></FORM>
+    <TD align=right bgColor=#006699 height=16 width=200><A class=top 
+      href="http://www.csdn.net/search.asp" target=_blank><IMG border=0 
+      height=16 src="CSDN_编程修养（五）.files/top1.gif" width=50></A> <A class=top 
+      href="http://www.csdn.net/member.shtm" target=_blank><IMG border=0 
+      height=16 src="CSDN_编程修养（五）.files/top2.gif" width=50></A><A class=top 
+      href="http://www.csdn.net/help/help.asp" target=_blank><IMG border=0 
+      height=16 src="CSDN_编程修养（五）.files/top3.gif" width=50></A> 
+</TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle height=70 width=170><A href="http://www.csdn.net/"><IMG 
+      border=0 src="CSDN_编程修养（五）.files/csdn.gif"></A><A 
+      href="http://www.csdn.net/all_topic/index.htm">&nbsp;</A></TD>
+    <TD align=middle><IFRAME border=0 frameBorder=No height=60 marginHeight=0 
+      marginWidth=0 scrolling=no src="CSDN_编程修养（五）.files/index.htm" 
+      width=468></IFRAME></TD>
+    <TD align=middle>
+      <SCRIPT>document.write("<img src=http://count.csdn.net/count/pageview1.asp?columnid=4&itemid=11 border=0 width=0 height=0>");</SCRIPT>
+
+      <SCRIPT src="CSDN_编程修养（五）.files/link.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#ff6633>
+    <TD height=1 vAlign=bottom></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 height=20 width=770>
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD height=40 vAlign=center width="100%">
+      <TABLE bgColor=#ff6600 border=0 cellPadding=0 cellSpacing=0 height=40 
+      width=550>
+        <TBODY>
+        <TR>
+          <TD height=20>
+            <SCRIPT src="CSDN_编程修养（五）.files/navigation.js"></SCRIPT>
+          </TD>
+          <TD bgColor=#ffffff><IMG height=20 
+            src="CSDN_编程修养（五）.files/head_gd_1.gif" width=40></TD></TR>
+        <TR>
+          <TD bgColor=#ffffff vAlign=bottom>
+            <MARQUEE onmouseout=this.start() onmouseover=this.stop() 
+            scrollAmount=2 scorlldelay="2">
+            <SCRIPT src="CSDN_编程修养（五）.files/marquee.htm"></SCRIPT>
+            </MARQUEE></TD>
+          <TD bgColor=#ffffff></TD></TR></TBODY></TABLE></TD>
+    <TD align=right height=30 vAlign=top width=200>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 height="100%" width=200>
+        <TBODY>
+        <TR>
+          <TD align=right vAlign=top><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><B>
+            <SCRIPT language=JavaScript>
+			<!--
+			function submit2()
+			{
+				
+				var types=document.alogon.type.options[document.alogon.type.selectedIndex].value;				
+				if (types!="1")
+					document.alogon.action="/member/logon.asp";
+				else
+					document.alogon.action="http://expert.csdn.net/member/logon.asp";
+				//document.alogon.submit();
+			}
+			tmpDate = new Date();
+			date = tmpDate.getDate();
+			month= tmpDate.getMonth() + 1 ; 
+			year= tmpDate.getYear();             
+			document.write(year);
+			document.write(".");
+			document.write(month);
+			document.write(".");
+			document.write(date);
+			// -->
+			</SCRIPT>
+            </B></FONT></TD></TR>
+        <TR>
+          <TD align=right><A href="http://www.csdn.net/english">English</A> <!--繁體--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE bgColor=#cccccc border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#cccccc>
+    <TD height=2></TD></TR>
+  <TR>
+    <TD bgColor=#ffffff height=15></TD></TR></TBODY></TABLE>
+<TABLE border=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#fafafa class=td1 vAlign=top width=150><BR><!--广告条开始//-->
+      <SCRIPT src="CSDN_编程修养（五）.files/other.js"></SCRIPT>
+<!--广告条结束//--></TD>
+    <TD align=middle vAlign=top width=620><!--文章说明信息开始//-->
+      <TABLE bgColor=#eeeeee border=0 cellPadding=0 cellSpacing=0 width=600>
+        <TBODY>
+        <TR bgColor=#ffffff>
+          <TD align=middle height=10 width=50></TD>
+          <TD align=right><A href="http://www.csdn.net/">CSDN</A> - <A 
+            href="http://www.csdn.net/develop/">文档中心</A> - <FONT 
+            color=#003399>其他</FONT>&nbsp;&nbsp;&nbsp;&nbsp;</TD></TR>
+        <TR>
+          <TD align=enter height=5></TD>
+          <TD align=middle width=500 td <></TD>
+        <TR>
+          <TD align=middle bgColor=#003399 height=10><FONT 
+            color=#ffffff>标题</FONT></TD>
+          <TD><B>&nbsp;&nbsp;&nbsp;&nbsp;编程修养（五）</B>&nbsp;&nbsp;&nbsp;&nbsp;haoel（原作）</TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR>
+        <TR>
+          <TD align=middle bgColor=#003399><FONT color=#ffffff>关键字</FONT></TD>
+          <TD width=500>&nbsp;&nbsp;&nbsp;&nbsp;C/C++ 程序员 编程 修养 易读性 高质量 可维护性 
+          稳定</TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR></TBODY></TABLE><!--文章说明信息结束//-->
+      <TABLE border=0 width=600>
+        <TBODY>
+        <TR>
+          <TD align=left><!--内容开始//--><BR>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>16、把相同或近乎相同的代码形成函数和宏</STRONG><BR>—————————————————————</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>有人说，最好的程序员，就是最喜欢“偷懒”的程序，其中不无道理。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>如果你有一些程序的代码片段很相似，或直接就是一样的，请把他们放在一个函数中。而如果这段代码不多，而且会被经常使用，你还想避免函数调用的开销，那么就把他写成宏吧。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>千万不要让同一份代码或是功能相似的代码在多个地方存在，不然如果功能一变，你就要修改好几处地方，这种会给维护带来巨大的麻烦，所以，做到“一改百改”，还是要形成函数或是宏。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>17、表达式中的括号</STRONG><BR>—————————</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>如果一个比较复杂的表达式中，你并不是很清楚各个操作符的忧先级，即使是你很清楚优先级，也请加上括号，不然，别人或是自己下一次读程序时，一不小心就看走眼理解错了，为了避免这种“误解”，还有让自己的程序更为清淅，还是加上括号吧。</FONT></P>
+            <P><FONT face="Courier New" size=2>比如，对一个结构的成员取地址：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; GetUserAge( 
+            &amp;( UserInfo-&gt;age ) );</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>虽然，&amp;UserInfo-&gt;age中，-&gt;操作符的优先级最高，但加上一个括号，会让人一眼就看明白你的代码是什么意思。</FONT></P>
+            <P><FONT face="Courier New" size=2>再比如，一个很长的条件判断：</FONT></P>
+            <P><FONT face="Courier New" size=2>if ( ( ch[0] &gt;= '0' || ch[0] 
+            &lt;= '9' ) &amp;&amp;<BR>&nbsp;&nbsp;&nbsp;&nbsp; ( ch[1] &gt;= 'a' 
+            || ch[1] &lt;= 'z' ) &amp;&amp;<BR>&nbsp;&nbsp;&nbsp;&nbsp; ( ch[2] 
+            &gt;= 'A' || ch[2] &lt;= 'Z' )&nbsp;&nbsp;&nbsp; 
+            )<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>括号，再加上空格和换行，你的代码是不是很容易读懂了？&nbsp;&nbsp;&nbsp;&nbsp; </FONT></P>
+            <P><BR><FONT face="Courier New" 
+            size=2><STRONG>18、函数参数中的const</STRONG><BR>———————————</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>对于一些函数中的指针参数，如果在函数中只读，请将其用const修饰，这样，别人一读到你的函数接口时，就会知道你的意图是这个参数是[in]，如果没有const时，参数表示[in/out]，注意函数接口中的const使用，利于程序的维护和避免犯一些错误。</FONT></P>
+            <P><FONT face="Courier New" size=2>虽然，const修饰的指针，如：const char* 
+            p，在C中一点用也没有，因为不管你的声明是不是const，指针的内容照样能改，因为编译器会强制转换，但是加上这样一个说明，有利于程序的阅读和编译。因为在C中，修改一个const指针所指向的内存时，会报一个Warning。这会引起程序员的注意。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>C++中对const定义的就很严格了，所以C++中要多多的使用const，const的成员函数，const的变量，这样会对让你的代码和你的程序更加完整和易读。（关于C++的const我就不多说了）</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>19、函数的参数个数（多了请用结构）</STRONG><BR>—————————————————</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>函数的参数个数最好不要太多，一般来说6个左右就可以了，众多的函数参数会让读代码的人一眼看上去就很头昏，而且也不利于维护。如果参数众多，还请使用结构来传递参数。这样做有利于数据的封装和程序的简洁性。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>也利于使用函数的人，因为如果你的函数个数很多，比如12个，调用者很容易搞错参数的顺序和个数，而使用结构struct来传递参数，就可以不管参数的顺序。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>而且，函数很容易被修改，如果需要给函数增加参数，不需要更改函数接口，只需更改结构体和函数内部处理，而对于调用函数的程序来说，这个动作是透明的。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><BR><FONT face="Courier New" 
+            size=2><STRONG>20、函数的返回类型，不要省略</STRONG><BR>——————————————</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>我看到很多程序写函数时，在函数的返回类型方面不太注意。如果一个函数没有返回值，也请在函数前面加上void的修饰。而有的程序员偷懒，在返回int的函数则什么不修饰（因为如果不修饰，则默认返回int），这种习惯很不好，还是为了原代码的易读性，加上int吧。</FONT></P>
+            <P><FONT face="Courier New" size=2>所以函数的返回值类型，请不要省略。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>另外，对于void的函数，我们往往会忘了return，由于某些C/C++的编译器比较敏感，会报一些警告，所以即使是void的函数，我们在内部最好也要加上return的语句，这有助于代码的编译。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><BR><FONT face="Courier New" 
+            size=2><STRONG>21、goto语句的使用</STRONG><BR>—————————</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>N年前，软件开发的一代宗师——迪杰斯特拉(Dijkstra)说过：“goto statment is harmful 
+            !!”，并建议取消goto语句。因为goto语句不利于程序代码的维护性。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>这里我也强烈建议不要使用goto语句，除非下面的这种情况：</FONT></P>
+            <P><BR><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; #define 
+            FREE(p) if(p) { 
+            \<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            free(p); 
+            \<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            p = NULL; 
+            \<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            main()<BR>&nbsp;&nbsp;&nbsp; 
+            {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; char *fname=NULL, 
+            *lname=NULL, *mname=NULL; </FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fname = ( char* ) 
+            calloc ( 20, sizeof(char) 
+            );<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( fname == NULL 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            goto ErrHandle;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lname = ( char* ) 
+            calloc ( 20, sizeof(char) 
+            );<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( lname == NULL 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            goto ErrHandle;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mname = ( char* ) 
+            calloc ( 20, sizeof(char) 
+            );<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( mname == NULL 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            goto ErrHandle;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ......<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+            ErrHandle:<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            FREE(fname);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            FREE(lname);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            FREE(mname);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ReportError(ERR_NO_MEMOEY);<BR>&nbsp;&nbsp;&nbsp;&nbsp; }</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>也只有在这种情况下，goto语句会让你的程序更易读，更容易维护。（在用嵌C来对数据库设置游标操作时，或是对数据库建立链接时，也会遇到这种结构）</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><BR><FONT face="Courier New" 
+            size=2><STRONG>22、宏的使用</STRONG><BR>——————</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>很多程序员不知道C中的“宏”到底是什么意思？特别是当宏有参数的时候，经常把宏和函数混淆。我想在这里我还是先讲讲“宏”，宏只是一种定义，他定义了一个语句块，当程序编译时，编译器首先要执行一个“替换”源程序的动作，把宏引用的地方替换成宏定义的语句块，就像文本文件替换一样。这个动作术语叫“宏的展开”</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>使用宏是比较“危险”的，因为你不知道宏展开后会是什么一个样子。例如下面这个宏：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; #define&nbsp; 
+            MAX(a, b)&nbsp;&nbsp;&nbsp;&nbsp; a&gt;b?a:b</FONT></P>
+            <P><FONT face="Courier New" size=2>当我们这样使用宏时，没有什么问题： MAX( num1, num2 
+            ); 因为宏展开后变成 num1&gt;num2?num1:num2；。 但是，如果是这样调用的，MAX( 17+32, 25+21 
+            ); 
+            呢，编译时出现错误，原因是，宏展开后变成：17+32&gt;25+21?17+32:25+21，哇，这是什么啊？</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>所以，宏在使用时，参数一定要加上括号，上述的那个例子改成如下所示就能解决问题了。</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; #define&nbsp; 
+            MAX( (a), (b) )&nbsp;&nbsp;&nbsp;&nbsp; 
+            (a)&gt;(b)?(a):(b)<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>即使是这样，也不这个宏也还是有Bug，因为如果我这样调用 MAX(i++, j++); ， 
+            经过这个宏以后，i和j都被累加了两次，这绝不是我们想要的。<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>所以，在宏的使用上还是要谨慎考虑，因为宏展开是的结果是很难让人预料的。而且虽然，宏的执行很快（因为没有函数调用的开销），但宏会让源代码澎涨，使目标文件尺寸变大，（如：一个50行的宏，程序中有1000个地方用到，宏展开后会很不得了），相反不能让程序执行得更快（因为执行文件变大，运行时系统换页频繁）。</FONT></P>
+            <P><FONT face="Courier New" size=2>因此，在决定是用函数，还是用宏时得要小心。</FONT></P>
+            <P align=right><A 
+            href="http://www.csdn.net/Develop/read_article.asp?id=18272"><STRONG><FONT 
+            face="Courier New" size=2>&lt;-上一页</FONT></STRONG></A><FONT 
+            color=#0000ff face="Courier New" size=2><STRONG>&nbsp; 
+            </STRONG></FONT><A 
+            href="http://www.csdn.net/Develop/read_article.asp?id=18274"><STRONG><FONT 
+            face="Courier New" size=2>下一页-&gt;</FONT></STRONG></A></P>
+            <P><STRONG><FONT face="Courier New" 
+            size=2>（版权所有，转载时请注明出处和作者信息）</FONT></STRONG></P><BR><!--内容结束//--></TD></TR></TBODY></TABLE><BR>
+      <TABLE border=0 width=600>
+        <TBODY>
+        <TR>
+          <TD>作者相关文章： 
+            <LI><A href="http://www.csdn.net/develop/article/18/18275.shtm" 
+            target=_blank>编程修养（七）<FONT color=#ff0000>(原作)</FONT></A> 
+            <LI><A href="http://www.csdn.net/develop/article/18/18274.shtm" 
+            target=_blank>编程修养（六）<FONT color=#ff0000>(原作)</FONT></A> 
+            <LI><A href="http://www.csdn.net/develop/article/18/18272.shtm" 
+            target=_blank>编程修养（四）<FONT color=#ff0000>(原作)</FONT></A> 
+        </LI></TD></TR></TBODY></TABLE><BR>
+  <TR></TD></TR></TBODY></TABLE><BR><!--文章评论开始//-->
+<TABLE align=center bgColor=#006699 border=0 cellPadding=0 cellSpacing=0 
+width=770>
+  <TBODY>
+  <TR bgColor=#006699>
+    <TD align=middle bgColor=#006699 id=white><FONT 
+    color=#ffffff>对该文的评论</FONT></TD>
+    <TD align=middle><!--文章人气开始//-->
+      <SCRIPT src="CSDN_编程修养（五）.files/readnum.htm"></SCRIPT>
+<!--文章人气开始//--></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; yuyiwei<I>(2003-5-13 16:37:55)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>nanyu: 
+      关于你对goto的评论中的代码由于给压缩得没有换行（这也是CSDN的一个缺憾:-)），我对bread也不是很了解，不知它的思想是什么呢？我很想知道这个是如何适应C++的变量需要才申请的特性的。谢谢！<BR>我认为goto在一定的地方还有存在的理由，一个为了程序的易读，二是为了不容易出错，如在读取多个文件中的内容，函数开始可能会同时打开多个文件，开辟多个buffer，也就是说函数结束前要关闭文件，将开辟的buffer 
+      free掉等处理，那在函数开始执行期间有错误就可以直接跳到结束前的处理了。这个是相当有好处的，当然若想使用goto替代循环，函数调用等就非常不可行了。<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nanyu<I>(2003-5-12 11:31:45)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>倒着说吧。<BR><BR>&nbsp; 
+      语言有标准，但编译器没有标准。编译器是一种实现，而非一种标准。<BR>&nbsp; <BR>&nbsp; 否则，我问你：<BR>&nbsp; 请问， 
+      在C++里，修改一个const object，是错误吗？ <BR>&nbsp; 你该如何回答？<BR><BR>&nbsp; 
+      你答：“当然是错。”。<BR>&nbsp; 那你还说 
+      “不管VC还是BC还不是标准的C/C++编译器。本人认为标准的还是GNU的”…………可是前二者里，它们都不会让一个修改了const char* 
+      的代码通过，而后者——就是你认定的“标准还是”的编译器，只能得出一条warning... 
+      ——大多数程序员都相信warning同样要引起100%的注意——但显然你更有高求，因为你认为：<BR><BR>&nbsp; “如：const 
+      char* p，在C中一点用也没有，因为不管你的声明是不是const，指针的内容照样能改，因为编译器会强制转换”&nbsp; 
+      <BR><BR>&nbsp; （人家编译器不是给出警告了吗？你非说“一点用也没有”非说“编译器会强制转换”？而现在又非说<BR>&nbsp; 
+      “不管VC还是BC还不是标准的C/C++编译器。本人认为标准的还是GNU的”）<BR><BR>&nbsp; 
+      一句话，用你认为是标准的编译器，还编译你认为是标准的代码，结果会怎样？<BR><BR>&nbsp; 
+      在网上，关于主流编译器的比较的文章，有很多。在这CSDN上，侯捷那里就有。去看看。<BR><BR><BR>接来还是的问题的源头还是同一个。<BR><BR>你说：“另外，对于void的函数，我们往往会忘了return，由于某些C/C++的编译器比较敏感，会报一些警告”。。。没办法。我当时是没有想到，你说的“某些C/C++的编译器” 
+      也不屑于包含VC，所以自然你是对的。VC？“不管VC还是BC还不是标准的C/C++编译器。本人认为标准的还是GNU的”。我不过是想在CSDN里，还有有很多人“不幸”如我：“恐怕是Windows下的编程序搞多了，喜欢VC或BC……”，属于需要你来“提醒”的。我就替我做了，提醒了他们，用VC，编译 
+      return (bool)? void : void; 是过不去的。 <BR><BR>&nbsp; 
+      嗯，对我们都是好意的。<BR><BR>&nbsp; 另， 我说的 const char* 和 char const* ，后者实应为： char* 
+      const。既然你懂。那就不重说了。<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; xiazhihan<I>(2003-5-10 18:39:28)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>垃圾，每个公司都有自己的一套编码规则，你只是在推销你自己的一套，但不一适合于别人！<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel<I>(2003-5-10 15:53:34)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>nanyu：<BR><BR>1）谢谢你的留言，我非常喜欢你关于我goto语句的评论。<BR>但你的那种定义一个只循环一次的做法可能在一些情况下不适用。<BR>不过大家的目的都是为了程序的易读，从这个方面我们没有什么分歧，<BR>不必过分地陷入细节上的实现。<BR><BR>2）对于const 
+      char* p; 和 char const* p;，我想不熟悉的可能是你吧。<BR>在C语言中，你可以做一下这个试验：<BR>char const* 
+      p1 = "12345";<BR>const char* p2 = "12345";<BR>p1++; 
+      <BR>(*p2)++;<BR>你会发现，在Linux下的cc编译时，只会有一条警告信息：<BR>warning: increment of 
+      read-only location 
+      （这是针对(*p2)++这条语句的）<BR><BR>3）最后想说的就是，你恐怕是Windows下的编程序搞多了，喜欢VC或BC，<BR>但提醒你一点，不管VC还是BC还不是标准的C/C++编译器。本人认为标准的还是GNU的。<BR><BR><BR><BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nanyu<I>(2003-5-10 11:24:49)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>“另外，对于void的函数，我们往往会忘了return，由于某些C/C++的编译器比较敏感，会报一些警告，所以即使是void的函数，我们在内部最好也要加上return的语句，这有助于代码的编译”<BR><BR>&nbsp; 
+      有时候事情总是事违人愿。VC的编译器便是这样。<BR><BR>void A();<BR>void B();<BR><BR>void 
+      C()<BR>{<BR>&nbsp; &nbsp; bool ok;<BR>&nbsp; &nbsp; ....<BR><BR>&nbsp; 
+      &nbsp; return (ok)? A() : 
+B();<BR>}<BR><BR>VC可能会说有错。<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nanyu<I>(2003-5-10 11:21:19)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>"const char* 
+      p；在C中一点用也没有，因为不管你的声明是不是const，指针的内容照样能改...."<BR><BR>作者是不是有点拿不定 const char* 
+      p;&nbsp; 和 char const* p; 
+？这不是有年头的编译器的错误，而是C或C++基础知识。<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nanyu<I>(2003-5-10 11:13:35)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>sorry 
+      .代码是拷下来的，结果我也忘了：<BR>lname = fname = mname = NULL;<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nanyu<I>(2003-5-10 11:12:00)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>21、goto语句的使用 <BR>&nbsp; 
+      我非常不赞成，相信只要写程序有一定年头的人，都知道对此类问题<BR>的解决方法。那就是用bread,而不goto.<BR><BR>&nbsp; 
+      其一：&nbsp; goto&nbsp; 使得这段代码突然成了C,无法支持C++在需要才申请变量等特性。<BR>&nbsp; 其二： 
+      上例中，最后不管3721 free 了fname,lname,mname.这三个变量是局部变量，<BR>在Release 
+      版时，C++不会对其进行初始化，可是作者在<BR>&nbsp; <BR>&nbsp; &nbsp; if ( fname == NULL 
+      ){<BR>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; goto ErrHandle;<BR>&nbsp; 
+      &nbsp; &nbsp; &nbsp; }<BR><BR>&nbsp; 
+      这时应有一个goto,这对后面的free(lname),free(mname)会带来什么结果？<BR><BR>使用bread解决此类问题：<BR><BR>int 
+      main()<BR>{<BR>&nbsp; #define BEG_DORANGE&nbsp; do{<BR>&nbsp; #define 
+      END_DORANGE&nbsp; while(false);<BR><BR>&nbsp; bool finish = 
+      false;<BR>&nbsp; char* fname, *lname, *mname;<BR><BR>&nbsp; 
+      BEG_DORANGE<BR>&nbsp; <BR>&nbsp; if((fname = (char*)calloc(20, 
+      sizeof(char))),!fname)<BR>&nbsp; &nbsp; &nbsp; break;<BR><BR>&nbsp; 
+      if((lname = (char*)calloc(20, sizeof(char))),!lname)<BR>&nbsp; &nbsp; 
+      &nbsp; break;<BR><BR>&nbsp; if((mname = (char*)calloc(20, 
+      sizeof(char))),!mname)<BR>&nbsp; &nbsp; &nbsp; break;<BR>&nbsp; &nbsp; 
+      &nbsp; <BR>&nbsp; finish = true;<BR><BR>&nbsp; END_DORANGE&nbsp; 
+      <BR><BR>&nbsp; if(!finish){<BR>&nbsp; &nbsp; &nbsp; free(fname);<BR>&nbsp; 
+      &nbsp; &nbsp; free(lname);<BR>&nbsp; &nbsp; &nbsp; free(mname);<BR>&nbsp; 
+      &nbsp; &nbsp; <BR>&nbsp; &nbsp; &nbsp; 
+      ReportError(ERR_NO_MEMOEY);<BR>&nbsp; &nbsp; &nbsp; }&nbsp; <BR>}&nbsp; 
+      <BR><BR>针对这个代码，我还有一些和本文相关的看法：<BR><BR>一、是不能说一句需要空格，就这样子加法：<BR><BR>fname = ( 
+      char* ) calloc ( 20, sizeof(char) 
+      );<BR><BR>加空格无非是为了人视觉上的舒服，这一方面传统或现代的排版业已经有很成熟和自然的<BR>作法：<BR><BR>fname = 
+      (char *)calloc(20, 
+      sizeof(char));<BR><BR>二、无论是C或C++，都提供给我们逗号操作符。应学会使用。<BR><BR>仅仅多加一层花括可以达到消除警告消息的结果：<BR><BR>&nbsp; 
+      if(NULL = (lname = (char*)calloc(20, sizeof(char))))<BR>&nbsp; &nbsp; 
+      &nbsp; break;<BR>&nbsp; 
+但或许这会招致批评，说是不易读，那么加一个逗号操作，完美解决。<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #990000"><IMG height=16 
+      hspace=1 src="CSDN_编程修养（五）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; TopCat<I>(2003-5-9 13:04:44)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>main()&nbsp; =&amp;gt;&nbsp; 
+      int main()<BR></TD></TR></TBODY></TABLE>
+<SCRIPT language=javascript>
+<!--
+function isEmpty(s)
+{  
+	return ((s == null) || (s.length == 0))
+}
+function submit1()
+{
+ if (document.add_critique.csdnpassword.value != '_xxx_no') 
+  {
+   if (isEmpty(document.add_critique.csdnname.value) || isEmpty(document.add_critique.csdnpassword.value) || isEmpty(document.add_critique.critique_content.value))
+   {
+      alert('登陆名，密码，评论不能为空！！！！')   ;
+      return false;
+   }
+  }
+   else
+   {
+   if ( isEmpty(document.add_critique.critique_content.value))
+   {
+      alert('评论不能为空！！！！')   ;
+      return false;
+   }
+   }
+	add_critique.ubmit.disabled =true;
+	   document.add_critique.submit();
+ }
+//-->
+</SCRIPT>
+<BR><BR>
+<TABLE align=center bgColor=#cccccc border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TH bgColor=#006699 id=white><FONT 
+color=#ffffff>发表评论</FONT></TH></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#ffffff border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD>
+      <FORM action=/develop/critique_Sql.asp method=post 
+      name=add_critique><INPUT name=critique_add type=hidden value=add>
+      <SCRIPT>
+		function getcookieval(offset)   {
+		var endstr = document.cookie.indexOf(';',offset);
+		if (endstr == -1)
+			endstr = document.cookie.length;
+		return unescape (document.cookie.substring(offset,endstr));
+		}
+		function getcookie(name)   {
+		var arg = name + '=';
+		var alen = arg.length;
+		var clen = document.cookie.length;
+		var j = 0;
+		while (j< clen)       {
+			var k = j + alen;
+			if(document.cookie.substring(j,k) == arg) return getcookieval(k);
+			j = document.cookie.indexOf('',j)+1;
+			if (j ==0 ) break;
+			}
+		return null;
+		}
+		var ss = getcookie('userid');
+		if ((ss==null) | (ss=='2')) 
+		{
+			document.write('<font color=red><B>你还没有登录：</B></font>昵称:<input type=text name=csdnname size=10 class=from1>　密码:<input type=password name=csdnpassword size=10 class=from1>　<a href=http://www.csdn.net/expert/zc.asp><B>免费注册</B></a>');
+		}
+		else
+		{
+			document.write('<input type=hidden name=csdnname size=10 value=><input type=hidden name=csdnpassword size=10 value=_xxx_no>')
+		}
+		</SCRIPT>
+       &nbsp;&nbsp;评论：<BR>&nbsp;&nbsp;<TEXTAREA cols=100 name=critique_content rows=8></TEXTAREA><BR>&nbsp;&nbsp; 
+<INPUT name=ubmit onclick=javascript:submit1(); type=button value=发表评论> 
+      <INPUT name=Topic_id type=hidden value=18273> <INPUT name=From type=hidden 
+      value=/Develop/Build_Article.asp?id=18273> </FORM></TD></TR></TBODY></TABLE>
+<CENTER></CENTER><BR>
+<HR noShade SIZE=1 width=770>
+
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=500>
+  <TBODY>
+  <TR align=middle>
+    <TD height=10 vAlign=bottom><A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">网站简介</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=5">广告服务</A> - <A 
+      href="http://www.csdn.net/map/map.shtm">网站地图</A> - <A 
+      href="http://www.csdn.net/help/help.asp">帮助信息</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">联系方式</A> </TD>
+    <TD align=middle rowSpan=3><A 
+      href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001032100010"><IMG 
+      border=0 height=48 src="CSDN_编程修养（五）.files/biaoshi.gif" 
+width=40></A></TD></TR>
+  <TR align=middle>
+    <TD vAlign=top>百联美达美公司 版权所有 京ICP证020026号</TD></TR>
+  <TR align=middle>
+    <TD vAlign=top><FONT face=Verdana>Copyright &copy; CSDN.net, Inc. All rights 
+      reserved</FONT></TD></TR>
+  <TR>
+    <TD height=15></TD>
+    <TD></TD></TR></TBODY></TABLE></DIV><!--218.19.11.160//--></BODY></HTML>

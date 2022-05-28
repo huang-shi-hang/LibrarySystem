@@ -1,0 +1,559 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0053)http://www.csdn.net/Develop/read_article.asp?id=18275 -->
+<HTML><HEAD><TITLE>CSDN_文档中心_编程修养（七）</TITLE>
+<META content="MSHTML 5.00.3502.5390" name=GENERATOR>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type><LINK 
+href="CSDN_文档中心_编程修养（七）.files/csdn.css" rel=stylesheet></HEAD>
+<BODY bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<DIV align=center>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD colSpan=3 height=2></TD></TR>
+  <TR>
+    <TD bgColor=#006699 width=20></TD>
+    <FORM action="" method=post name=alogon onsubmit=javascript:submit2() 
+    target=_blank>
+    <TD bgColor=#006699 height=20 vAlign=center><IMG height=20 
+      src="CSDN_文档中心_编程修养（七）.files/index_login3.gif" width=60> <INPUT name=name 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      font-color:#ffffff ;> <IMG height=20 
+      src="CSDN_文档中心_编程修养（七）.files/index_login4.gif" width=60> <INPUT name=pass 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      type=password> <SELECT name=type size=1 
+      style="BACKGROUND-COLOR: #006699; COLOR: #ffffff"> <OPTION selected 
+        value=1>我的论坛</OPTION> <OPTION value=2>我的软件</OPTION> <OPTION 
+        value=3>我的订单</OPTION> <OPTION value=4>我的文档</OPTION> <OPTION 
+        value=5>我的简历</OPTION></SELECT> <INPUT height=20 
+      src="CSDN_文档中心_编程修养（七）.files/index_login1.gif" type=image width=60><A 
+      href="http://www.csdn.net/member/zc.asp" target=_parent><IMG border=0 
+      height=20 src="CSDN_文档中心_编程修养（七）.files/index_login2.gif" 
+    width=60></A></TD></FORM>
+    <TD align=right bgColor=#006699 height=16 width=200><A class=top 
+      href="http://www.csdn.net/search.asp" target=_blank><IMG border=0 
+      height=16 src="CSDN_文档中心_编程修养（七）.files/top1.gif" width=50></A> <A 
+      class=top href="http://www.csdn.net/member.shtm" target=_blank><IMG 
+      border=0 height=16 src="CSDN_文档中心_编程修养（七）.files/top2.gif" width=50></A><A 
+      class=top href="http://www.csdn.net/help/help.asp" target=_blank><IMG 
+      border=0 height=16 src="CSDN_文档中心_编程修养（七）.files/top3.gif" width=50></A> 
+  </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle height=70 width=170><A href="http://www.csdn.net/"><IMG 
+      border=0 src="CSDN_文档中心_编程修养（七）.files/csdn.gif"></A><A 
+      href="http://www.csdn.net/all_topic/index.htm">&nbsp;</A></TD>
+    <TD align=middle><IFRAME border=0 frameBorder=No height=60 marginHeight=0 
+      marginWidth=0 scrolling=no src="CSDN_文档中心_编程修养（七）.files/index.htm" 
+      width=468></IFRAME></TD>
+    <TD align=middle>
+      <SCRIPT>document.write("<img src=http://count.csdn.net/count/pageview1.asp?columnid=4&itemid=11 border=0 width=0 height=0>");</SCRIPT>
+
+      <SCRIPT src="CSDN_文档中心_编程修养（七）.files/link.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#ff6633>
+    <TD height=1 vAlign=bottom></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 height=20 width=770>
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD height=40 vAlign=center width="100%">
+      <TABLE bgColor=#ff6600 border=0 cellPadding=0 cellSpacing=0 height=40 
+      width=550>
+        <TBODY>
+        <TR>
+          <TD height=20>
+            <SCRIPT src="CSDN_文档中心_编程修养（七）.files/navigation.js"></SCRIPT>
+          </TD>
+          <TD bgColor=#ffffff><IMG height=20 
+            src="CSDN_文档中心_编程修养（七）.files/head_gd_1.gif" width=40></TD></TR>
+        <TR>
+          <TD bgColor=#ffffff vAlign=bottom>
+            <MARQUEE onmouseout=this.start() onmouseover=this.stop() 
+            scrollAmount=2 scorlldelay="2">
+            <SCRIPT src="CSDN_文档中心_编程修养（七）.files/marquee.htm"></SCRIPT>
+            </MARQUEE></TD>
+          <TD bgColor=#ffffff></TD></TR></TBODY></TABLE></TD>
+    <TD align=right height=30 vAlign=top width=200>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 height="100%" width=200>
+        <TBODY>
+        <TR>
+          <TD align=right vAlign=top><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><B>
+            <SCRIPT language=JavaScript>
+			<!--
+			function submit2()
+			{
+				
+				var types=document.alogon.type.options[document.alogon.type.selectedIndex].value;				
+				if (types!="1")
+					document.alogon.action="/member/logon.asp";
+				else
+					document.alogon.action="http://expert.csdn.net/member/logon.asp";
+				//document.alogon.submit();
+			}
+			tmpDate = new Date();
+			date = tmpDate.getDate();
+			month= tmpDate.getMonth() + 1 ; 
+			year= tmpDate.getYear();             
+			document.write(year);
+			document.write(".");
+			document.write(month);
+			document.write(".");
+			document.write(date);
+			// -->
+			</SCRIPT>
+            </B></FONT></TD></TR>
+        <TR>
+          <TD align=right><A href="http://www.csdn.net/english">English</A> <!--繁體--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE bgColor=#cccccc border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#cccccc>
+    <TD height=2></TD></TR>
+  <TR>
+    <TD bgColor=#ffffff height=15></TD></TR></TBODY></TABLE>
+<TABLE border=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#fafafa class=td1 vAlign=top width=150><BR><!--广告条开始//-->
+      <SCRIPT src="CSDN_文档中心_编程修养（七）.files/other.js"></SCRIPT>
+<!--广告条结束//--></TD>
+    <TD align=middle width=620><!--文章说明信息开始//-->
+      <TABLE bgColor=#eeeeee border=0 cellPadding=0 cellSpacing=0 width=600>
+        <TBODY>
+        <TR bgColor=#ffffff>
+          <TD align=middle height=10 width=50></TD>
+          <TD align=right><A href="http://www.csdn.net/">CSDN</A> - <A 
+            href="http://www.csdn.net/develop/">文档中心</A> - <FONT 
+            color=#003399>其他</FONT>&nbsp;&nbsp;&nbsp;&nbsp; </TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR>
+        <TR>
+          <TD align=middle bgColor=#003399 height=10><FONT 
+            color=#ffffff>标题</FONT></TD>
+          <TD><B>&nbsp;&nbsp;&nbsp;&nbsp;编程修养（七）</B>&nbsp;&nbsp;&nbsp;&nbsp;haoel（原作） 
+          </TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR>
+        <TR>
+          <TD align=middle bgColor=#003399><FONT color=#ffffff>关键字</FONT></TD>
+          <TD width=500>&nbsp;&nbsp;&nbsp;&nbsp;C/C++ 程序员 编程 修养 易读性 高质量 可维护性 
+          稳定</TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR></TBODY></TABLE><!--文章说明信息结束//-->
+      <TABLE border=0 width=600>
+        <TBODY>
+        <TR>
+          <TD align=left><!--内容开始//--><BR>
+            <P><FONT face="Courier New"><FONT 
+            size=2><STRONG>28、||和&amp;&amp;的语句执行顺序</STRONG><BR>————————————<BR>条件语句中的这两个“与”和“或”操作符一定要小心，它们的表现可能和你想像的不一样，这里条件语句中的有些行为需要和说一下：</FONT></FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; express1 || 
+            express2<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp; 
+            先执行表达式express1如果为“真”，express2将不被执行，express2仅在express1为“假”时才被执行。因为第一个表达式为真了，整个表达式都为真，所以没有必要再去执行第二个表达式了。</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; express1 
+            &amp;&amp; express2</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            先执行表达式express1如果为“假”，express2将不被执行，express2仅在express1为“真”时才被执行。因为第一个表达式为假了，整个表达式都为假了，所以没有必要再去执行第二个表达式了。</FONT></P>
+            <P><BR><FONT face="Courier New" 
+            size=2>于是，他并不是你所想像的所有的表达式都会去执行，这点一定要明白，不然你的程序会出现一些莫明的运行时错误。</FONT></P>
+            <P><FONT face="Courier New" size=2>例如，下面的程序：</FONT></P>
+            <P><BR><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; if ( sum 
+            &gt; 100 
+            &amp;&amp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( ( 
+            fp=fopen( filename,"a" ) ) != NULL )&nbsp;&nbsp; 
+            {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fprintf(fp, 
+            "Warring: it beyond one 
+            hundred\n");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ......<BR>&nbsp;&nbsp;&nbsp; }<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp; fprintf( fp, " sum is %id \n", sum 
+            );<BR>&nbsp;&nbsp;&nbsp; fclose( fp );</FONT></P>
+            <P><FONT face="Courier New" size=2>本来的意图是，如果sum &gt; 100 
+            ，向文件中写一条出错信息，为了方便，把两个条件判断写在一起，于是，如果sum&lt;=100时，打开文件的操作将不会做，最后，fprintf和fclose就会发现未知的结果。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>再比如，如果我想判断一个字符是不是有内容，我得判断这个字符串指针是不为空（NULL）并且其内容不能为空（Empty），一个是空指针，一个是空内容。我也许会这样写：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; if ( ( p != 
+            NULL ) &amp;&amp; ( strlen(p) != 0 ))</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>于是，如果p为NULL，那么strlen(p)就不会被执行，于是，strlen也就不会因为一个空指针而“非法操作”或是一个“Core 
+            Dump”了。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>记住一点，条件语句中，并非所有的语句都会执行，当你的条件语句非常多时，这点要尤其注意。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New"><FONT 
+            size=2><STRONG>29、尽量用for而不是while做循环</STRONG><BR>———————————————<BR>基本上来说，for可以完成while的功能，我是建议尽量使用for语句，而不要使用while语句，特别是当循环体很大时，for的优点一下就体现出来了。</FONT></FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>因为在for中，循环的初始、结束条件、循环的推进，都在一起，一眼看上去就知道这是一个什么样的循环。刚出学校的程序一般对于链接喜欢这样来：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; p = 
+            pHead;<BR>&nbsp;&nbsp;&nbsp; <BR>&nbsp;&nbsp;&nbsp; while ( p 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ...<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ...<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p = 
+            p-&gt;next;<BR>&nbsp;&nbsp;&nbsp; }</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>当while的语句块变大后，你的程序将很难读，用for就好得多：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; for ( 
+            p=pHead;&nbsp; p; p=p-&gt;next ){<BR>&nbsp;&nbsp;&nbsp; 
+            ..<BR>&nbsp;&nbsp;&nbsp; }</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>一眼就知道这个循环的开始条件，结束条件，和循环的推进。大约就能明白这个循环要做个什么事？而且，程序维护进来很容易，不必像while一样，在一个编辑器中上上下下的捣腾。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New"><FONT 
+            size=2><STRONG>30、请sizeof类型而不是变量</STRONG><BR>—————————————</FONT></FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>许多程序员在使用sizeof中，喜欢sizeof变量名，例如：</FONT></P>
+            <P><FONT face="Courier New" size=2>int score[100];<BR>char 
+            filename[20];<BR>struct UserInfo usr[100];</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>在sizeof这三个的变量名时，都会返回正确的结果，于是许多程序员就开始sizeof变量名。这个习惯很虽然没有什么不好，但我还是建议sizeof类型。</FONT></P>
+            <P><FONT face="Courier New" size=2>我看到过这个的程序：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; pScore = 
+            (int*) malloc( SUBJECT_CNT );<BR>&nbsp;&nbsp;&nbsp; memset( pScore, 
+            0, sizeof(pScore) );<BR>&nbsp;&nbsp;&nbsp; ...<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>此时，sizeof(pScore)返回的就是4（指针的长度），不会是整个数组，于是，memset就不能对这块内存进行初始化。为了程序的易读和易维护，我强烈建议使用类型而不是变量，如：</FONT></P>
+            <P><FONT face="Courier New" size=2>对于score：&nbsp;&nbsp;&nbsp;&nbsp; 
+            sizeof(int) * 100&nbsp;&nbsp; /* 100个int */<BR>对于filename：&nbsp; 
+            sizeof(char) * 20&nbsp;&nbsp; /* 20个char 
+            */<BR>对于usr：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sizeof(struct 
+            UserInfo) * 100&nbsp;&nbsp; /* 100个UserInfo */</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>这样的代码是不是很易读？一眼看上去就知道什么意思了。</FONT></P>
+            <P><BR><FONT face="Courier New" 
+            size=2>另外一点，sizeof一般用于分配内存，这个特性特别在多维数组时，就能体现出其优点了。如，给一个字符串数组分配内存，</FONT></P>
+            <P><FONT face="Courier New" size=2>/* <BR>&nbsp;* 
+            分配一个有20个字符串，<BR>&nbsp;* 每个字符串长100的内存 <BR>&nbsp;*/</FONT></P>
+            <P><FONT face="Courier New" size=2>char* *p;</FONT></P>
+            <P><FONT face="Courier New" size=2>/*<BR>&nbsp;* 
+            错误的分配方法<BR>&nbsp;*/<BR>p = (char**)calloc( 20*100, sizeof(char) 
+            );</FONT></P>
+            <P><BR><FONT face="Courier New" size=2>/*<BR>&nbsp;* 
+            正确的分配方法<BR>&nbsp;*/<BR>p = (char**) calloc ( 20, sizeof(char*) 
+            );<BR>for ( i=0; i&lt;20; i++){<BR></FONT><FONT face="Courier New" 
+            size=2>&nbsp;&nbsp;&nbsp; <FONT color=#0000ff><FONT 
+            color=#a0a0a0>/*p = (char*) calloc ( 100, sizeof(char) 
+            );*/</FONT><BR></FONT>&nbsp;&nbsp;&nbsp; p[i] = (char*) calloc ( 
+            100, sizeof(char) );<BR>}</FONT></P>
+            <P><FONT color=#0000ff face="Courier New" 
+            size=2>（注：上述语句被注释掉的是原来的，是错误的，由dasherest朋友指正，谢谢）</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>为了代码的易读，省去了一些判断，请注意这两种分配的方法，有本质上的差别。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New"><FONT 
+            size=2><STRONG>31、不要忽略Warning</STRONG><BR>——————————<BR>对于一些编译时的警告信息，请不要忽视它们。虽然，这些Warning不会妨碍目标代码的生成，但这并不意味着你的程序就是好的。必竟，并不是编译成功的程序才是正确的，编译成功只是万里长征的第一步，后面还有大风大浪在等着你。从编译程序开始，不但要改正每个error，还要修正每个warning。这是一个有修养的程序员该做的事。</FONT></FONT></P>
+            <P><FONT face="Courier New" size=2>一般来说，一面的一些警告信息是常见的：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            1）声明了未使用的变量。（虽然编译器不会编译这种变量，但还是把它从源程序中注释或是删除吧）<BR>&nbsp;&nbsp;&nbsp; 
+            2）使用了隐晦声明的函数。（也许这个函数在别的C文件中，编译时会出现这种警告，你应该这使用之前使用extern关键字声明这个函数）<BR>&nbsp;&nbsp;&nbsp; 
+            3）没有转换一个指针。（例如malloc返回的指针是void的，你没有把之转成你实际类型而报警，还是手动的在之前明显的转换一下吧）<BR>&nbsp;&nbsp;&nbsp; 
+            4）类型向下转换。（例如：float f = 2.0; 
+            这种语句是会报警告的，编译会告诉你正试图把一个double转成float，你正在阉割一个变量，你真的要这样做吗？还是在2.0后面加个f吧，不然，2.0就是一个double，而不是float了）<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>不管怎么说，编译器的Warning不要小视，最好不要忽略，一个程序都做得出来，何况几个小小的Warning呢？</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New"><FONT 
+            size=2><STRONG>32、书写Debug版和Release版的程序</STRONG><BR>————————————————<BR>程序在开发过程中必然有许多程序员加的调试信息。我见过许多项目组，当程序开发结束时，发动群众删除程序中的调试信息，何必呢？为什么不像VC++那样建立两个版本的目标代码？一个是debug版本的，一个是Release版的。那些调试信息是那么的宝贵，在日后的维护过程中也是很宝贵的东西，怎么能说删除就删除呢？</FONT></FONT></P>
+            <P><FONT face="Courier New" size=2>利用预编译技术吧，如下所示声明调试函数：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; #ifdef 
+            DEBUG<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; void TRACE(char* 
+            fmt, ...)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ......<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }<BR>&nbsp;&nbsp;&nbsp; 
+            #else<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #define 
+            TRACE(char* fmt, ...)<BR>&nbsp;&nbsp;&nbsp; #endif</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>于是，让所有的程序都用TRACE输出调试信息，只需要在在编译时加上一个参数“-DDEBUG”，如：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; cc -DDEBUG -o 
+            target target.c</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>于是，预编译器发现DEBUG变量被定义了，就会使用TRACE函数。而如果要发布给用户了，那么只需要把取消“-DDEBUG”的参数，于是所有用到TRACE宏，这个宏什么都没有，所以源程序中的所有TRACE语言全部被替换成了空。一举两得，一箭双雕，何乐而不为呢？</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>顺便提一下，两个很有用的系统宏，一个是“__FILE__”，一个是“__LINE__”，分别表示，所在的源文件和行号，当你调试信息或是输出错误时，可以使用这两个宏，让你一眼就能看出你的错误，出现在哪个文件的第几行中。这对于用C/C++做的大工程非常的管用。</FONT></P>
+            <P><FONT face="Courier New" size=2>
+            <HR>
+            </FONT>
+            <P></P>
+            <P><FONT face="Courier New" size=2>综上所述32条，都是为了三大目的——</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            1、程序代码的易读性。<BR>&nbsp;&nbsp;&nbsp; 2、程序代码的可维护性，<BR>&nbsp;&nbsp;&nbsp; 
+            3、程序代码的稳定可靠性。<BR>&nbsp;&nbsp;&nbsp; 
+            <BR>有修养的程序员，就应该要学会写出这样的代码！这是任何一个想做编程高手所必需面对的细小的问题，编程高手不仅技术要强，基础要好，而且最重要的是要有“修养”！</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>好的软件产品绝不仅仅是技术，而更多的是整个软件的易维护和可靠性。&nbsp;&nbsp;&nbsp; 
+</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>软件的维护有大量的工作量花在代码的维护上，软件的Upgrade，也有大量的工作花在代码的组织上，所以好的代码，清淅的，易读的代码，将给大大减少软件的维护和升级成本。</FONT></P>
+            <P align=right><A 
+            href="http://www.csdn.net/Develop/read_article.asp?id=18274"><STRONG><FONT 
+            face="Courier New" size=2>&lt;-上一页</FONT></STRONG></A><FONT 
+            color=#0000ff face="Courier New" 
+            size=2><STRONG>&nbsp;</STRONG></FONT></P>
+            <P><STRONG><FONT face="Courier New" 
+            size=2>（版权所有，转载时请注明出处和作者信息）</FONT></STRONG></P><BR><!--内容结束//--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR><!--文章评论开始//-->
+<TABLE align=center bgColor=#006699 border=0 cellPadding=0 cellSpacing=0 
+width=770>
+  <TBODY>
+  <TR bgColor=#006699>
+    <TD align=middle bgColor=#006699 id=white><FONT 
+    color=#ffffff>对该文的评论</FONT></TD>
+    <TD align=middle><!--文章人气开始//-->
+      <SCRIPT src="CSDN_文档中心_编程修养（七）.files/readnum.htm"></SCRIPT>
+<!--文章人气开始//--></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; dockbar <I>(2003-5-14 12:57:13)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>30 我是不同意地 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; bahanzo1 <I>(2003-5-14 12:38:28)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>收藏！ <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; buaawzg <I>(2003-5-14 11:23:51)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>感谢提供了这么好的文章，作为学生确实有所发现。 
+  <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; zhangning111 <I>(2003-5-14 3:33:01)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>我看这不是笔误是错误: p = (char**) 
+      calloc ( 20, sizeof(char*) ); for ( i=0; i&lt;20; i++){ p[i] = (char*) 
+      calloc ( 100, sizeof(char) ); //原语句为p = (char*) calloc ( 100, sizeof(char) 
+      ); } 这样申请的内存不连续，不是一个内存块，不能算是完全的动态二维数组我想应该这样： char * buf = (char*) calloc 
+      (20 * 100, sizeof(char)); char * *p = (char**) calloc (20, sizeof(char*) 
+      ); for (i = 0;i &lt; 20;i++) { p[i] = buf + i * 100 * sizeof(char); } 
+      失业中，有招人的吗？ mail:zhangning111@sina.com <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; lene <I>(2003-5-13 17:04:15)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>感谢您的文章，不过说实在的，作为一个学娃娃，我们很愿意知道一些我们没想到的。 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; zliang2000 <I>(2003-5-12 18:39:48)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>谢谢作者的好文章！！！ 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; dhbo <I>(2003-5-12 12:05:34)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>感谢作者！收藏！！ 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Goooder <I>(2003-5-12 9:50:13)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>收藏 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; dukcho <I>(2003-5-11 20:35:15)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>呵呵,说的很实在,从中发现了很多平常编程中的问题,希望今后多出这样的文章. 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; chen3feng <I>(2003-5-10 21:08:03)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>据说while(true)再很多编译器（eg 
+      MSVC6）上生成的代码不如for(;;) 没做过测试. <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-10 15:55:25)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>dasherest 
+      ：非常感谢你的指正，这的确是我的一个失误，你的是对的，谢谢你。 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; dasherest <I>(2003-5-10 10:23:15)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>多谢您的建议,我还在当中学到了不少东西 
+  <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; dasherest <I>(2003-5-10 10:22:07)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>这儿好像有个笔误: p = (char**) calloc 
+      ( 20, sizeof(char*) ); for ( i=0; i&lt;20; i++){ p[i] = (char*) calloc ( 
+      100, sizeof(char) ); //原语句为p = (char*) calloc ( 100, sizeof(char) ); } 
+    <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-10 2:14:34)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>No9527：哎！我说的是尽量，没有说完全，如果for可以完全取代while，那么ANSI的人早就取消while了，存在就一定有其道理。我在这里的意思是“尽量”，而不是绝对，前提是程序的易读、易维护和稳定。如果真要挑刺的话，我的每个条例中都可以挑出毛病来，只要你肯钻牛角尖。不过，还是要谢谢你对我的关注，真是很感谢你给我的留言。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; feeling2000 <I>(2003-5-10 2:04:03)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>thank u so much . :) i m now 
+      studying ur article <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; No9527 <I>(2003-5-10 0:03:51)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>不会吧，难道这样的程序： while(TRUE) { // 
+      Wait for network events on all sockets Index = 
+      WSAWaitForMultipleEvents(EventTotal, EventArray, FALSE, WSA_INFINITE, 
+      FALSE); ……………… } 要写成： for(;;) { // Wait for network events on all sockets 
+      Index = WSAWaitForMultipleEvents(EventTotal, EventArray, FALSE, 
+      WSA_INFINITE, FALSE); ……………… } 才算是“有修养的程序员”？？#·￥%…………——#￥￥·！￥！ 
+      不过对你的大多数论述我还是赞同的，写这种东西能写这么多，也蛮累的，努力啊。 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; admireO <I>(2003-5-9 17:00:41)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>感谢haoel为大家提供了这么精彩的文章，看完真的有种提醐灌顶的感觉：） 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-9 11:48:50)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>没有问题，当p的值是NULL是， 
+      for中的这个条件表达式就是p的值，也就是NULL，一般而言，NULL就是0，而0就是假！所以可以结束循环。 这就好像： if (p!=NULL) 
+      printf("%s",p); 等价于： if (p) printf("%s",p); <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（七）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Adnil <I>(2003-5-9 10:57:08)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>for ( p=pHead; p; p=p-&gt;next 
+      ){ .. } 有问题，应该是 for ( p = pHead; p != NULL; p = p-&gt;next ){ .. } 
+  <BR></TD></TR></TBODY></TABLE><!--文章评论结束//--><BR>
+<DIV align=center>
+<TABLE align=center bgColor=#cccccc border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TH bgColor=#006699 id=white><FONT 
+color=#ffffff>我要评论</FONT></TH></TR></TBODY></TABLE></DIV>� 
+<DIV align=center>
+<TABLE border=0 width=770>
+  <TBODY>
+  <TR>
+    <TD>你没有登陆，无法发表评论。 请先<A 
+      href="http://www.csdn.net/member/login.asp?from=/Develop/read_article.asp?id=18275">登陆</A> 
+      <A 
+href="http://www.csdn.net/expert/zc.asp">我要注册</A><BR></TD></TR></TBODY></TABLE></DIV><BR>
+<HR noShade SIZE=1 width=770>
+
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=500>
+  <TBODY>
+  <TR align=middle>
+    <TD height=10 vAlign=bottom><A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">网站简介</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=5">广告服务</A> - <A 
+      href="http://www.csdn.net/map/map.shtm">网站地图</A> - <A 
+      href="http://www.csdn.net/help/help.asp">帮助信息</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">联系方式</A> </TD>
+    <TD align=middle rowSpan=3><A 
+      href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001032100010"><IMG 
+      border=0 height=48 src="CSDN_文档中心_编程修养（七）.files/biaoshi.gif" 
+    width=40></A></TD></TR>
+  <TR align=middle>
+    <TD vAlign=top>百联美达美公司 版权所有 京ICP证020026号</TD></TR>
+  <TR align=middle>
+    <TD vAlign=top><FONT face=Verdana>Copyright &copy; CSDN.net, Inc. All rights 
+      reserved</FONT></TD></TR>
+  <TR>
+    <TD height=15></TD>
+    <TD></TD></TR></TBODY></TABLE></DIV>
+<DIV></DIV><!--结束//--></BODY></HTML>

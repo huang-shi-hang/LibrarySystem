@@ -1,0 +1,596 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0053)http://www.csdn.net/Develop/read_article.asp?id=18270 -->
+<HTML><HEAD><TITLE>CSDN_文档中心_编程修养（二）</TITLE>
+<META content="MSHTML 5.00.3502.5390" name=GENERATOR>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type><LINK 
+href="CSDN_文档中心_编程修养（二）.files/csdn.css" rel=stylesheet></HEAD>
+<BODY bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<DIV align=center>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD colSpan=3 height=2></TD></TR>
+  <TR>
+    <TD bgColor=#006699 width=20></TD>
+    <FORM action="" method=post name=alogon onsubmit=javascript:submit2() 
+    target=_blank>
+    <TD bgColor=#006699 height=20 vAlign=center><IMG height=20 
+      src="CSDN_文档中心_编程修养（二）.files/index_login3.gif" width=60> <INPUT name=name 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      font-color:#ffffff ;> <IMG height=20 
+      src="CSDN_文档中心_编程修养（二）.files/index_login4.gif" width=60> <INPUT name=pass 
+      size=7 
+      style="BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #888888" 
+      type=password> <SELECT name=type size=1 
+      style="BACKGROUND-COLOR: #006699; COLOR: #ffffff"> <OPTION selected 
+        value=1>我的论坛</OPTION> <OPTION value=2>我的软件</OPTION> <OPTION 
+        value=3>我的订单</OPTION> <OPTION value=4>我的文档</OPTION> <OPTION 
+        value=5>我的简历</OPTION></SELECT> <INPUT height=20 
+      src="CSDN_文档中心_编程修养（二）.files/index_login1.gif" type=image width=60><A 
+      href="http://www.csdn.net/member/zc.asp" target=_parent><IMG border=0 
+      height=20 src="CSDN_文档中心_编程修养（二）.files/index_login2.gif" 
+    width=60></A></TD></FORM>
+    <TD align=right bgColor=#006699 height=16 width=200><A class=top 
+      href="http://www.csdn.net/search.asp" target=_blank><IMG border=0 
+      height=16 src="CSDN_文档中心_编程修养（二）.files/top1.gif" width=50></A> <A 
+      class=top href="http://www.csdn.net/member.shtm" target=_blank><IMG 
+      border=0 height=16 src="CSDN_文档中心_编程修养（二）.files/top2.gif" width=50></A><A 
+      class=top href="http://www.csdn.net/help/help.asp" target=_blank><IMG 
+      border=0 height=16 src="CSDN_文档中心_编程修养（二）.files/top3.gif" width=50></A> 
+  </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle height=70 width=170><A href="http://www.csdn.net/"><IMG 
+      border=0 src="CSDN_文档中心_编程修养（二）.files/csdn.gif"></A><A 
+      href="http://www.csdn.net/all_topic/index.htm">&nbsp;</A></TD>
+    <TD align=middle><IFRAME border=0 frameBorder=No height=60 marginHeight=0 
+      marginWidth=0 scrolling=no src="CSDN_文档中心_编程修养（二）.files/index.htm" 
+      width=468></IFRAME></TD>
+    <TD align=middle>
+      <SCRIPT>document.write("<img src=http://count.csdn.net/count/pageview1.asp?columnid=4&itemid=11 border=0 width=0 height=0>");</SCRIPT>
+
+      <SCRIPT src="CSDN_文档中心_编程修养（二）.files/link.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#ff6633>
+    <TD height=1 vAlign=bottom></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 height=20 width=770>
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD height=40 vAlign=center width="100%">
+      <TABLE bgColor=#ff6600 border=0 cellPadding=0 cellSpacing=0 height=40 
+      width=550>
+        <TBODY>
+        <TR>
+          <TD height=20>
+            <SCRIPT src="CSDN_文档中心_编程修养（二）.files/navigation.js"></SCRIPT>
+          </TD>
+          <TD bgColor=#ffffff><IMG height=20 
+            src="CSDN_文档中心_编程修养（二）.files/head_gd_1.gif" width=40></TD></TR>
+        <TR>
+          <TD bgColor=#ffffff vAlign=bottom>
+            <MARQUEE onmouseout=this.start() onmouseover=this.stop() 
+            scrollAmount=2 scorlldelay="2">
+            <SCRIPT src="CSDN_文档中心_编程修养（二）.files/marquee.htm"></SCRIPT>
+            </MARQUEE></TD>
+          <TD bgColor=#ffffff></TD></TR></TBODY></TABLE></TD>
+    <TD align=right height=30 vAlign=top width=200>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 height="100%" width=200>
+        <TBODY>
+        <TR>
+          <TD align=right vAlign=top><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><B>
+            <SCRIPT language=JavaScript>
+			<!--
+			function submit2()
+			{
+				
+				var types=document.alogon.type.options[document.alogon.type.selectedIndex].value;				
+				if (types!="1")
+					document.alogon.action="/member/logon.asp";
+				else
+					document.alogon.action="http://expert.csdn.net/member/logon.asp";
+				//document.alogon.submit();
+			}
+			tmpDate = new Date();
+			date = tmpDate.getDate();
+			month= tmpDate.getMonth() + 1 ; 
+			year= tmpDate.getYear();             
+			document.write(year);
+			document.write(".");
+			document.write(month);
+			document.write(".");
+			document.write(date);
+			// -->
+			</SCRIPT>
+            </B></FONT></TD></TR>
+        <TR>
+          <TD align=right><A href="http://www.csdn.net/english">English</A> <!--繁體--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE bgColor=#cccccc border=0 cellPadding=0 cellSpacing=0 width=770>
+  <TBODY>
+  <TR bgColor=#cccccc>
+    <TD height=2></TD></TR>
+  <TR>
+    <TD bgColor=#ffffff height=15></TD></TR></TBODY></TABLE>
+<TABLE border=0 width=770>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#fafafa class=td1 vAlign=top width=150><BR><!--广告条开始//-->
+      <SCRIPT src="CSDN_文档中心_编程修养（二）.files/other.js"></SCRIPT>
+<!--广告条结束//--></TD>
+    <TD align=middle width=620><!--文章说明信息开始//-->
+      <TABLE bgColor=#eeeeee border=0 cellPadding=0 cellSpacing=0 width=600>
+        <TBODY>
+        <TR bgColor=#ffffff>
+          <TD align=middle height=10 width=50></TD>
+          <TD align=right><A href="http://www.csdn.net/">CSDN</A> - <A 
+            href="http://www.csdn.net/develop/">文档中心</A> - <FONT 
+            color=#003399>其他</FONT>&nbsp;&nbsp;&nbsp;&nbsp; </TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR>
+        <TR>
+          <TD align=middle bgColor=#003399 height=10><FONT 
+            color=#ffffff>标题</FONT></TD>
+          <TD><B>&nbsp;&nbsp;&nbsp;&nbsp;编程修养（二）</B>&nbsp;&nbsp;&nbsp;&nbsp;haoel（原作） 
+          </TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR>
+        <TR>
+          <TD align=middle bgColor=#003399><FONT color=#ffffff>关键字</FONT></TD>
+          <TD width=500>&nbsp;&nbsp;&nbsp;&nbsp;C/C++ 程序员 编程 修养 易读性 高质量 可维护性 
+          稳定</TD></TR>
+        <TR>
+          <TD align=middle height=5></TD>
+          <TD align=middle width=500></TD></TR></TBODY></TABLE><!--文章说明信息结束//-->
+      <TABLE border=0 width=600>
+        <TBODY>
+        <TR>
+          <TD align=left><!--内容开始//--><BR>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>1、版权和版本</STRONG><BR>———————<BR>好的程序员会给自己的每个函数，每个文件，都注上版权和版本。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>对于C/C++的文件，文件头应该有类似这样的注释：<BR>/************************************************************************<BR>*<BR>*&nbsp;&nbsp; 
+            文件名：network.c<BR>*<BR>*&nbsp;&nbsp; 
+            文件描述：网络通讯函数集<BR>*<BR>*&nbsp;&nbsp; 创建人： Hao Chen, 
+            2003年2月3日<BR>*<BR>*&nbsp;&nbsp; 版本号：1.0<BR>*<BR>*&nbsp;&nbsp; 
+            修改记录：<BR>*<BR>************************************************************************/</FONT></P>
+            <P><FONT face="Courier New" size=2>而对于函数来说，应该也有类似于这样的注释：</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>/*================================================================<BR>&nbsp;*<BR>&nbsp;* 
+            函 数 名：XXX<BR>&nbsp;*<BR>&nbsp;* 参&nbsp;&nbsp;&nbsp; 数：<BR>&nbsp;* 
+            <BR>&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type name [IN] 
+            : descripts<BR>&nbsp;*<BR>&nbsp;* 功能描述:<BR>&nbsp;* 
+            <BR>&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ..............<BR>&nbsp;*<BR>&nbsp;* 返 回 
+            值：成功TRUE，失败FALSE<BR>&nbsp;*<BR>&nbsp;* 抛出异常：<BR>&nbsp;*<BR>&nbsp;* 
+            作&nbsp;&nbsp;&nbsp; 者：ChenHao 
+            2003/4/2<BR>&nbsp;*<BR>&nbsp;================================================================*/</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>这样的描述可以让人对一个函数，一个文件有一个总体的认识，对代码的易读性和易维护性有很大的好处。这是好的作品产生的开始。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>2、缩进、空格、换行、空行、对齐</STRONG><BR>————————————————<BR>i) 
+            缩进应该是每个程序都会做的，只要学程序过程序就应该知道这个，但是我仍然看过不缩进的程序，或是乱缩进的程序，如果你的公司还有写程序不缩进的程序员，请毫不犹豫的开除他吧，并以破坏源码罪起诉他，还要他赔偿读过他程序的人的精神损失费。缩进，这是不成文规矩，我再重提一下吧，一个缩进一般是一个TAB键或是4个空格。（最好用TAB键）</FONT></P>
+            <P><FONT face="Courier New" size=2>ii) 
+            空格。空格能给程序代来什么损失吗？没有，有效的利用空格可以让你的程序读进来更加赏心悦目。而不一堆表达式挤在一起。看看下面的代码：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            ha=(ha*128+*key++)%tabPtr-&gt;size;</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; ha = ( ha * 
+            128 + *key++ ) % tabPtr-&gt;size;</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            有空格和没有空格的感觉不一样吧。一般来说，语句中要在各个操作符间加空格，函数调用时，要以各个参数间加空格。如下面这种加空格的和不加的：<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>if 
+            ((hProc=OpenProcess(PROCESS_ALL_ACCESS,FALSE,pid))==NULL){<BR>&nbsp;}</FONT></P>
+            <P><FONT face="Courier New" size=2>if (&nbsp;( hProc = 
+            OpenProcess(PROCESS_ALL_ACCESS, FALSE, pid) ) == NULL 
+            ){<BR>}</FONT></P>
+            <P><FONT face="Courier New" size=2>iii) 
+            换行。不要把语句都写在一行上，这样很不好。如：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            for(i=0;i&lt;len;i++) 
+            if((a[i]&lt;'0'||a[i]&gt;'9')&amp;&amp;(a[i]&lt;'a'||a[i]&gt;'z')) 
+            break;<BR>&nbsp;&nbsp;&nbsp; <BR>&nbsp;&nbsp;&nbsp; 
+            我拷，这种即无空格，又无换行的程序在写什么啊？加上空格和换行吧。&nbsp;&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp; <BR>&nbsp;&nbsp;&nbsp; for ( i=0; i&lt;len; 
+            i++) {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( ( a[i] 
+            &lt; '0' || a[i] &gt; '9' ) 
+            &amp;&amp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            ( a[i] &lt; 'a' || a[i] &gt; 'z' ) ) 
+            {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            break;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            }<BR>&nbsp;&nbsp;&nbsp; }</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            好多了吧？有时候，函数参数多的时候，最好也换行，如：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            CreateProcess(<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            NULL,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            cmdbuf,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            NULL,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            NULL,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            bInhH,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            dwCrtFlags,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            envbuf,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            NULL,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            &amp;siStartInfo,<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            &amp;prInfo<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            );</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            条件语句也应该在必要时换行：<BR>&nbsp;&nbsp;&nbsp; <BR>&nbsp;&nbsp;&nbsp; if ( ch 
+            &gt;= '0' || ch &lt;= '9' 
+            ||<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ch &gt;= 'a' 
+            || ch &lt;= 'z' 
+            ||<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ch &gt;= 'A' 
+            || ch &lt;= 'Z' )</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>iv) 空行。不要不加空行，空行可以区分不同的程序块，程序块间，最好加上空行。如：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; HANDLE 
+            hProcess;<BR>&nbsp;&nbsp;&nbsp; PROCESS_T procInfo;</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; /* open the 
+            process handle */<BR>&nbsp;&nbsp;&nbsp; if((hProcess = 
+            OpenProcess(PROCESS_ALL_ACCESS, FALSE, pid)) == 
+            NULL)<BR>&nbsp;&nbsp;&nbsp; 
+            {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 
+            LSE_MISC_SYS;<BR>&nbsp;&nbsp;&nbsp; }</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            memset(&amp;procInfo, 0, sizeof(procInfo));<BR>&nbsp;&nbsp;&nbsp; 
+            procInfo.idProc = pid;<BR>&nbsp;&nbsp;&nbsp; procInfo.hdProc = 
+            hProcess;<BR>&nbsp;&nbsp;&nbsp; procInfo.misc |= 
+            MSCAVA_PROC;</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; 
+            return(0);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR>v) 对齐。用TAB键对齐你的一些变量的声明或注释，一样会让你的程序好看一些。如：</FONT></P>
+            <P><FONT face="Courier New" size=2>typedef struct _pt_man_t_ 
+            {<BR>&nbsp;&nbsp;&nbsp; int&nbsp;&nbsp;&nbsp;&nbsp; 
+            numProc;&nbsp;&nbsp;&nbsp; /* Number of 
+            processes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            */<BR>&nbsp;&nbsp;&nbsp; int&nbsp;&nbsp;&nbsp;&nbsp; 
+            maxProc;&nbsp;&nbsp;&nbsp; /* Max Number of 
+            processes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            */<BR>&nbsp;&nbsp;&nbsp; int&nbsp;&nbsp;&nbsp;&nbsp; 
+            numEvnt;&nbsp;&nbsp;&nbsp; /* Number of 
+            events&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            */<BR>&nbsp;&nbsp;&nbsp; int&nbsp;&nbsp;&nbsp;&nbsp; 
+            maxEvnt;&nbsp;&nbsp;&nbsp; /* Max Number of 
+            events&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            */<BR>&nbsp;&nbsp;&nbsp; HANDLE* pHndEvnt;&nbsp;&nbsp; /* Array of 
+            events&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            */<BR>&nbsp;&nbsp;&nbsp; DWORD&nbsp;&nbsp; timeout;&nbsp;&nbsp; 
+            &nbsp;/* Time out 
+            interval&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            &nbsp;&nbsp;&nbsp; */<BR>&nbsp;&nbsp;&nbsp; HANDLE&nbsp; 
+            hPipe;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;/* 
+            Namedpipe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            &nbsp;*/<BR>&nbsp;&nbsp;&nbsp; TCHAR&nbsp;&nbsp; usr[MAXUSR];/* User 
+            name of the process&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */<BR>&nbsp;&nbsp;&nbsp; 
+            int&nbsp;&nbsp;&nbsp;&nbsp; numMsg;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* 
+            Number of 
+            Message&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/<BR>&nbsp;&nbsp;&nbsp; 
+            int&nbsp;&nbsp;&nbsp;&nbsp; Msg[MAXMSG];/* Space for intro process 
+            communicate&nbsp;*/<BR>} PT_MAN_T;</FONT></P>
+            <P><FONT face="Courier New" size=2>怎么样？感觉不错吧。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>这里主要讲述了如果写出让人赏心悦目的代码，好看的代码会让人的心情愉快，读起代码也就不累，工整、整洁的程序代码，通常更让人欢迎，也更让人称道。现在的硬盘空间这么大，不要让你的代码挤在一起，这样它们会抱怨你虐待它们的。好了，用“缩进、空格、换行、空行、对齐”装饰你的代码吧，让他们从没有秩序的土匪中变成一排排整齐有秩序的正规部队吧。</FONT></P>
+            <P><BR><FONT face="Courier New" 
+            size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            </FONT></P>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>3、程序注释</STRONG><BR>——————<BR>养成写程序注释的习惯，这是每个程序员所必须要做的工作。我看过那种几千行，却居然没有一行注释的程序。这就如同在公路上驾车却没有路标一样。用不了多久，连自己都不知道自己的意图了，还要花上几倍的时间才看明白，这种浪费别人和自己的时间的人，是最为可耻的人。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>是的，你也许会说，你会写注释，真的吗？注释的书写也能看出一个程序员的功底。一般来说你需要至少写这些地方的注释：文件的注释、函数的注释、变量的注释、算法的注释、功能块的程序注释。主要就是记录你这段程序是干什么的？你的意图是什么？你这个变量是用来做什么的？等等。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>不要以为注释好写，有一些算法是很难说或写出来的，只能意会，我承认有这种情况的时候，但你也要写出来，正好可以训练一下自己的表达能力。而表达能力正是那种闷头搞技术的技术人员最缺的，你有再高的技术，如果你表达能力不行，你的技术将不能得到充分的发挥。因为，这是一个团队的时代。</FONT></P>
+            <P><FONT face="Courier New" size=2>好了，说几个注释的技术细节：</FONT></P>
+            <P><FONT face="Courier New" size=2>i) 对于行注释（“//”）比块注释（“/* 
+            */”）要好的说法，我并不是很同意。因为一些老版本的C编译器并不支持行注释，所以为了你的程序的移植性，请你还是尽量使用块注释。</FONT></P>
+            <P><FONT face="Courier New" size=2>ii) 
+            你也许会为块注释的不能嵌套而不爽，那么你可以用预编译来完成这个功能。使用“#if 
+            0”和“#endif”括起来的代码，将不被编译，而且还可以嵌套。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><BR><FONT face="Courier New" 
+            size=2><STRONG>4、函数的[in][out]参数</STRONG><BR>———————————</FONT></P>
+            <P><FONT face="Courier New" size=2>我经常看到这样的程序：<BR>FuncName(char* 
+            str)<BR>{<BR>&nbsp;&nbsp;&nbsp; int len = 
+            strlen(str);<BR>&nbsp;&nbsp;&nbsp; .....<BR>}</FONT></P>
+            <P><FONT face="Courier New" size=2>char*<BR>GetUserName(struct user* 
+            pUser)<BR>{<BR>&nbsp;&nbsp;&nbsp; return 
+            pUser-&gt;name;<BR>}</FONT></P>
+            <P><FONT face="Courier New" size=2>不！请不要这样做。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>你应该先判断一下传进来的那个指针是不是为空。如果传进来的指针为空的话，那么，你的一个大的系统就会因为这一个小的函数而崩溃。一种更好的技术是使用断言（assert），这里我就不多说这些技术细节了。当然，如果是在C++中，引用要比指针好得多，但你也需要对各个参数进行检查。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>写有参数的函数时，首要工作，就是要对传进来的所有参数进行合法性检查。而对于传出的参数也应该进行检查，这个动作当然应该在函数的外部，也就是说，调用完一个函数后，应该对其传出的值进行检查。</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>当然，检查会浪费一点时间，但为了整个系统不至于出现“非法操作”或是“Core 
+            Dump”的系统级的错误，多花这点时间还是很值得的。</FONT></P>
+            <P><FONT face="Courier New" size=2></FONT>&nbsp;</P>
+            <P><BR><FONT face="Courier New" 
+            size=2><STRONG>5、对系统调用的返回进行判断</STRONG><BR>——————————————<BR>继续上一条，对于一些系统调用，比如打开文件，我经常看到，许多程序员对fopen返回的指针不做任何判断，就直接使用了。然后发现文件的内容怎么也读出不，或是怎么也写不进去。还是判断一下吧：</FONT></P>
+            <P><FONT face="Courier New" size=2>&nbsp;&nbsp;&nbsp; fp = 
+            fopen("log.txt", "a");<BR>&nbsp;&nbsp;&nbsp; if ( fp == NULL 
+            ){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("Error: open 
+            file error\n");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 
+            FALSE;<BR>&nbsp;&nbsp;&nbsp; }</FONT></P>
+            <P><FONT face="Courier New" 
+            size=2>其它还有许多啦，比如：socket返回的socket号，malloc返回的内存。请对这些系统调用返回的东西进行判断。</FONT></P>
+            <P align=right><FONT color=#3300ff face="Courier New" 
+            size=2><STRONG><A 
+            href="http://www.csdn.net/Develop/read_article.asp?id=18269">&lt;-上一页</A>&nbsp; 
+            <A 
+            href="http://www.csdn.net/Develop/read_article.asp?id=18271">下一页-&gt;<BR></A></P></STRONG></FONT>
+            <P><FONT face="Courier New" 
+            size=2><STRONG>（版权所有，转载时请注明出处和作者信息）</STRONG></FONT></P><BR><!--内容结束//--></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR><!--文章评论开始//-->
+<TABLE align=center bgColor=#006699 border=0 cellPadding=0 cellSpacing=0 
+width=770>
+  <TBODY>
+  <TR bgColor=#006699>
+    <TD align=middle bgColor=#006699 id=white><FONT 
+    color=#ffffff>对该文的评论</FONT></TD>
+    <TD align=middle><!--文章人气开始//-->
+      <SCRIPT src="CSDN_文档中心_编程修养（二）.files/readnum.htm"></SCRIPT>
+<!--文章人气开始//--></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; xxssy <I>(2003-5-13 9:50:03)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>我写Java，开始的时候我也是很小心的去写注释。但由于需求变动太快，本人又设计经验不足，导致程序变动非常大，这种情况非常多，现在的项目通常都是需求不明确，工程时间短，所以设计也很仓促。有时候改了代码却没有改注释，等回头来看代码的时候看注释反倒误导自己所以我现在不写注释，但尽可能将方法写的简短些，将功能非常独立的程序段放到一个方法里面。 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; squalluo <I>(2003-5-11 21:54:13)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>支持nivrana 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nirvana_scut <I>(2003-5-11 20:49:10)</I> 
+    </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>如果增加了注释可以缩短其他程序员看懂程序的时间，哪怕就算一秒，我们花上十分钟写注释都是值得的。这仅仅是我的观点。 
+    <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; nirvana_scut <I>(2003-5-11 20:47:10)</I> 
+    </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>LeighSword 
+      你凭什么对别人乱加指责？尊重别人的劳动成果是绅士的表现。自以为是是走向没落的开始。有不同的意见你可以跟对方用邮件联系啊，凭什么乱讲话？你以为自己是高手就自恋去吧，你没必要对我们这些要求看懂对方程序，要求可读性的程序员加以否定。谦虚一点好不好？山外有山！！ 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-11 18:09:42)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>同意！无论英文或是中文，表达清楚就可以了。只要一个软件中，统一用一种语言作注释，保持一致的风格就行了。 
+  <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Meuck <I>(2003-5-11 17:40:54)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>我是初学者，看看别人的代码，觉好的就用上了有些东西是很自然就用上去了，因为我记性不好，觉得加些空行之类的，我会明白一点,不会怪怪的，这就是我用它的全部理由. 
+      呵呵. <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; zhirenshao <I>(2003-5-11 14:10:36)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>个人认为可以用英文吧。用中文怪别扭的 
+      /************************************************************************ 
+      * * file name: network.c * * description：functions for network 
+      communication purpose * * creator： Hao Chen, 3/Feb/2003 * * version：1.0 * 
+      * modification history: * 
+      ************************************************************************/ 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; syconnar <I>(2003-5-10 20:31:33)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>空格是可以增加程序的可读性，但老兄你的空格是不是太多了，老实说，过多的空格其实会降低可读性的。 
+  <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; LeighSword <I>(2003-5-10 11:56:30)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>菜鸟才会怀疑别人的程序的可读性（前提：能行正确的实行功能的程序），真正吊的人不会把时间浪费在写/************************************************************************ 
+      * * 文件名：network.c * * 文件描述：网络通讯函数集 * * 创建人： Hao Chen, 2003年2月3日 * * 
+      版本号：1.0 * * 修改记录： * 
+      ************************************************************************/ 
+      这些垃圾上，给你个宏你好好研究研究，不要在这里胡说八道，误人子弟啦。 Sub AddFunctionDescription ( ) if 
+      ActiveDocument.Language = dsCPP Then Header = 
+      StripTabs(Trim(ActiveDocument.Selection)) If Header &lt;&gt; "" then Reti 
+      = InStr(Header, " ") Loc = InStr(Header, "(") if Reti &lt; Loc Then RetTp 
+      = Left(Header, Reti) Header = Right(Header, Len(Header) - Reti) End If Loc 
+      = InStr(Header, "(") - 1 Loc2 = InStr(Header, ")") if Loc &gt; 0 And Loc2 
+      &gt; 0 then 'make sure there is a '(' and a ')' fcName = Left(Header, Loc) 
+      Header = Right(Header, Len(Header) - Len(fcName)) Trim (fcName) If 
+      InStr(fcName," ") &lt;&gt; 0 Then retTp = retTp + Left(fcName,InStr 
+      (fcName," ")) fcName = Right(fcName, Len(fcName) - InStr(fcName," ")) End 
+      If '得到函数参数 iPrm = 0 iPrmA = 0 prms = Header '统计参数的个数 Do While InStr(prms, 
+      ",") &lt;&gt; 0 iPrm = iPrm + 1 prms = Right(prms, Len(prms) - InStr(prms, 
+      ",")) Loop If iPrm &gt; 0 Then ' If multiple params. iPrm = iPrm + 1 iPrmA 
+      = iPrm Redim ParamArr(iPrm) Do While InStr(header, ",") &lt;&gt; 0 
+      ParamArr(iPrm) = Left(Header, InStr (Header, ",") - 1) If 
+      InStr(ParamArr(iPrm), " (") &lt;&gt; 0 Then ParamArr(iPrm) = 
+      Right(ParamArr(iPrm), _ Len(ParamArr(iPrm))-InStr(ParamArr(iPrm)," (")) 
+      Trim(ParamArr(iPrm)) End If Header = Right(Header, Len(Header) - 
+      InStr(Header,",")) iPrm = iPrm - 1 Loop ParamArr(iPrm) = Header If 
+      InStr(ParamArr(iPrm), ")") &lt;&gt; 0 Then ParamArr(iPrm) = 
+      Left(ParamArr(iPrm), _ InStr(ParamArr(iPrm), ")") - 1) 
+      Trim(ParamArr(iPrm)) End If Else Redim ParamArr(1) Header = Right(Header, 
+      Len(Header) - 1) ' Strip the first brace. Trim(Header) ParamArr(1) = 
+      StripTabs(Header) If InStr(ParamArr(1), ")") &lt;&gt; 1 Then ParamArr(1) = 
+      Left(ParamArr(1), InStr(ParamArr(1), ")") - 1) Trim(ParamArr(1)) iPrmA = 1 
+      End If End If ActiveDocument.Selection.LineUp 
+      ActiveDocument.Selection.LineDown ActiveDocument.Selection.StartOfLine 
+      ActiveDocument.Selection = vbLf Descr = "// 函数名 : " + fcName + _ vbLf + 
+      "// 描述 : " + _ vbLf + "// 返回类型 : " + RetTp + vbLf '输出参数列表 Last = iPrmA Do 
+      While iPrmA &lt;&gt; 0 If InStr(ParamArr(iPrmA), vbLf) &lt;&gt; 0 Then 
+      ParamArr(iPrmA) = Right(ParamArr(iPrmA), _ (Len(ParamArr(iPrmA)) - _ 
+      InStr(ParamArr(iPrmA), vbLf))) Trim(ParamArr(iPrmA)) End If 
+      ParamArr(iPrmA) = StripTabs(ParamArr(iPrmA)) '如果多于两个参数 if iPrmA = Last AND 
+      Last &lt;&gt; 1 then ParamArr(iPrmA) = Right(ParamArr(iPrmA), _ 
+      Len(ParamArr(iPrmA)) - 1) End If Descr = Descr + "// 参数 : " + _ 
+      ParamArr(iPrmA) + vbLf iPrmA = iPrmA - 1 Loop ActiveDocument.Selection = 
+      Descr Else MsgBox("你的函数出现语法错误.") End if End If Else 
+      MsgBox("你必须选择一个函数原型在C++文档中") End If End Sub <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; liumj2001 <I>(2003-5-10 10:25:51)</I> 
+  </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>有本书叫C++编码规范，是MOTO写的。不错。和你的内容很相近。 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; chiway <I>(2003-5-9 16:47:36)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>20 
+      个指头赞成作者，特别是空白的使用，其他关于内存XX的问题，我不太遇到(因为用C#)。 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; Hodex <I>(2003-5-9 12:09:47)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>我就喜欢这种编程风格 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; lanzhengpeng2 <I>(2003-5-9 11:54:55)</I> 
+    </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 
+      width=532><BR>4、函数的[in][out]参数该讨论偏离了题意：（并且我认为不是非常有必要。在C/C++中：通常可以使用传值还是传址（或引用），是否const来区分是in还是out参数，并且达到自注释的效果。比在这种地方罗哩罗嗦的注释来的强得多 
+      <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; xfengd <I>(2003-5-9 11:44:37)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>同意 <BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; haoel <I>(2003-5-9 11:24:46)</I> </TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>误导？！愿闻其详！ 
+<BR></TD></TR></TBODY></TABLE>
+<TABLE align=center bgColor=#666666 border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TD bgColor=#cccccc colSpan=3><SPAN style="COLOR: #cccccc"><IMG height=16 
+      hspace=1 src="CSDN_文档中心_编程修养（二）.files/ico_pencil.gif" width=16> 
+      </SPAN>&nbsp;&nbsp;&nbsp;&nbsp; chen3feng <I>(2003-5-8 19:52:16)</I> 
+</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=3 width=532><BR>老兄,老实说,虽然多数都有道理,有些东西是还在误导人的. 
+      <BR></TD></TR></TBODY></TABLE><!--文章评论结束//--><BR>
+<DIV align=center>
+<TABLE align=center bgColor=#cccccc border=0 cellPadding=2 cellSpacing=1 
+width=770>
+  <TBODY>
+  <TR>
+    <TH bgColor=#006699 id=white><FONT 
+color=#ffffff>我要评论</FONT></TH></TR></TBODY></TABLE></DIV>� 
+<DIV align=center>
+<TABLE border=0 width=770>
+  <TBODY>
+  <TR>
+    <TD>你没有登陆，无法发表评论。 请先<A 
+      href="http://www.csdn.net/member/login.asp?from=/Develop/read_article.asp?id=18270">登陆</A> 
+      <A 
+href="http://www.csdn.net/expert/zc.asp">我要注册</A><BR></TD></TR></TBODY></TABLE></DIV><BR>
+<HR noShade SIZE=1 width=770>
+
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=500>
+  <TBODY>
+  <TR align=middle>
+    <TD height=10 vAlign=bottom><A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">网站简介</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=5">广告服务</A> - <A 
+      href="http://www.csdn.net/map/map.shtm">网站地图</A> - <A 
+      href="http://www.csdn.net/help/help.asp">帮助信息</A> - <A 
+      href="http://www.csdn.net/intro/intro.asp?id=2">联系方式</A> </TD>
+    <TD align=middle rowSpan=3><A 
+      href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001032100010"><IMG 
+      border=0 height=48 src="CSDN_文档中心_编程修养（二）.files/biaoshi.gif" 
+    width=40></A></TD></TR>
+  <TR align=middle>
+    <TD vAlign=top>百联美达美公司 版权所有 京ICP证020026号</TD></TR>
+  <TR align=middle>
+    <TD vAlign=top><FONT face=Verdana>Copyright &copy; CSDN.net, Inc. All rights 
+      reserved</FONT></TD></TR>
+  <TR>
+    <TD height=15></TD>
+    <TD></TD></TR></TBODY></TABLE></DIV>
+<DIV></DIV><!--结束//--></BODY></HTML>
