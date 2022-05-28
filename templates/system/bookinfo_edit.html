@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block page_content %}
+    <div class="col-md-offset-1 col-md-9">
+    <div class="panel panel-primary">
+  <div class="panel-heading">书籍信息修改</div>
+
+  <div class="panel-body">
+   <form class="form-horizontal" method="post" action="">
+       {%  csrf_token %}
+       <input type="hidden" name='id' value="{{ obj.id }}">
+  <div class="form-group">
+    <label for="book_num" class="col-md-2 control-label">书籍编号</label>
+    <div class="col-md-8">
+      <input type="text" class="form-control" id="book_num" name="book_num"  value="{{ obj.book_num }}">
+    </div>
+  </div>
+       <div class="form-group">
+    <label for="author" class="col-md-2 control-label">作者</label>
+    <div class="col-md-8">
+      <input type="text" class="form-control" id="author" name="author"  value="{{ obj.author }}">
+    </div>
+  </div>
+
+       <div class="form-group">
+    <label for="price" class="col-md-2 control-label">单价</label>
+    <div class="col-md-8">
+      <input type="number" class="form-control" id="price" name="price"  value="{{ obj.price }}">
+    </div>
+  </div>
+
+     <div class="form-group">
+    <label for="remarks" class="col-md-2 control-label">书名</label>
+    <div class="col-md-8">
+      <input type="text" class="form-control" id="remarks" name="remarks"value="{{ obj.remarks }}">
+    </div>
+  </div>
+
+       <div class="form-group">
+    <label for="status" class="col-md-2 control-label">书籍状态</label>
+    <div class="col-md-8">
+      <input type="text" class="form-control" id="status" name="status"  value="{{ obj.status }}">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-offset-2 col-md-8">
+      <button type="submit" class="btn btn-primary">保存</button>
+    </div>
+  </div>
+</form>
+  </div>
+</div>
+</div>
+{% endblock %}

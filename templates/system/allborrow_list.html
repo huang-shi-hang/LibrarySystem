@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block page_content %}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">全部借阅信息</div>
+    <div class="panel-body">
+        <table class="table table-striped table-hover table-bordered">
+            <thead>
+            <th class="bg-info text-center">借阅人</th>
+            <th class="bg-info text-center">书籍编号</th>
+            <th class="bg-info text-center">书名</th>
+            <th class="bg-info text-center">作者</th>
+            <th class="bg-info text-center">单价</th>
+            <th class="bg-info text-center">借阅开始时间</th>
+            <th class="bg-info text-center">借阅结束时间</th>
+            <th class="bg-info text-center">状态</th>
+            </thead>
+            <tbody>
+            {% for row in borrow_list %}
+            <tr rowid="{{ row.id }}">
+                <td>{{ row.bookuser}}</td>
+                <td>{{ row.book.book_num }}</td>
+                <td>{{ row.book.remarks }}</td>
+                <td>{{ row.book.author }}</td>
+                <td class="text-right">{{ row.book.price }}</td>
+                <td>{{ row.time_begin|date:'Y-m-d'}}</td>
+                <td>{{ row.time_end|date:'Y-m-d'}}</td>
+                <td>
+                    {% if row.approve_status == '0' %}
+                    {{ "借书待审核" }}
+                    {% endif %}
+                    {% if row.approve_status == '1' %}
+                    {{ "已借" }}
+                    {% endif %}
+                    {% if row.approve_status == '2' %}
+                    {{ "还书待审核" }}
+                    {% endif %}
+                    {% if row.approve_status == '3' %}
+                    {{ "已还" }}
+                    {% endif %}
+                </td>
+{#                <td>{{ row.oprator }}</td>#}
+
+{#              <td>#}
+{#                       {% if pagpermission.has_edit %}#}
+{#                                    <a href="/system/borrowedit/{{ row.id }}/" class="btn btn-info"> <i#}
+{#                                            class="fa fa-pencil-square-o"#}
+{#                                            aria-hidden="true" style="margin-right: 6px;"></i>编辑</a>#}
+{#                      {% endif %}#}
+{#                             {% if pagpermission.has_del %}#}
+{#                                    <button   class="btn btn-danger" data-toggle="modal"#}
+{#                                data-target="#delModal" data-rowid="{{ row.id }}"><i#}
+{#                                            class="fa fa-trash-o fa-fw"#}
+{#                                            aria-hidden="true" style="margin-right: 6px;"></i>删除</button>#}
+{#                                     {% endif %}#}
+{#                                </td>#}
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+
